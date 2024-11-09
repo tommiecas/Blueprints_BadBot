@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Assets/Drone/Materials/M_DroneGlass.uasset",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Maps/BotLevel.umap",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset",
 				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Maps/BotLevel.umap",
 				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/M_DroneGlass.uasset",
 				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/M_Drone.uasset",
