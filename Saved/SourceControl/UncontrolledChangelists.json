@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Maps/BotLevel.umap",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/M_DroneGlass.uasset",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/M_Drone.uasset",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/SM_Drone.uasset",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/Materials/M_DroneGlass.uasset",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/Materials/T_Drone_BC.uasset",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/Materials/T_Drone_EM.uasset",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/Materials/T_Drone_NRM.uasset",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/Materials/T_Drone_ORM.uasset",
+				"C:/Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/BadBot/Content/Assets/Drone/Materials/M_Drone.uasset"
+			]
+		}
+	]
+}
