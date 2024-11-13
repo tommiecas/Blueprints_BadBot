@@ -3038,3 +3038,1132 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.11.13-02.31.33:680][ 33]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.11.13-02.31.33:680][ 33]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2024.11.13-02.31.33:681][ 33]AssetCheck: /Game/Asian_Village/maps/Asian_Village_Demo Validating asset
+[2024.11.13-02.33.39:291][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.13-02.38.27:360][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.13-02.38.29:944][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.38.29:987][387]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Drone/BP_Bot] ([2] browsable assets)...
+[2024.11.13-02.38.30:023][387]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Drone/BP_Bot.BP_Bot]
+[2024.11.13-02.38.30:023][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_Bot]
+[2024.11.13-02.38.30:023][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Drone/BP_Bot" FILE="../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset" SILENT=true
+[2024.11.13-02.38.30:047][387]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_Bot
+[2024.11.13-02.38.30:047][387]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_Bot4B74107F45F16DA0114A32920A2A6BAC.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset'
+[2024.11.13-02.38.30:052][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.350 ms (total: 4.97 sec)
+[2024.11.13-02.38.30:085][387]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.38.30:085][387]LogContentValidation: Enabled validators:
+[2024.11.13-02.38.30:085][387]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.38.30:085][387]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.38.30:085][387]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.38.30:085][387]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.38.30:085][387]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.38.30:085][387]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.38.30:085][387]AssetCheck: /Game/Blueprints/Drone/BP_Bot Validating asset
+[2024.11.13-02.38.32:152][620]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.38.32:159][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.38.32:186][620]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.38.32:329][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.143859s)
+[2024.11.13-02.38.32:329][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.143895s)
+[2024.11.13-02.38.32:344][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.13-02.38.32:348][620]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.38.32:350][620]LogPlayLevel: PIE: World Init took: (0.001551s)
+[2024.11.13-02.38.32:350][620]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.11.13-02.38.32:350][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.38.32:350][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.38.32:350][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.38.32:350][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.38.32:350][620]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.38.32:350][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.38.32:350][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.38.32:350][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.38.32:350][620]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.38.32:350][620]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.38.32:350][620]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.38.32:353][620]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.38.32:362][620]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.38.32:362][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.38.32:362][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.38.32:362][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.38.32:363][620]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.11.13-02.38.32:363][620]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.11.13-02.38.32:364][620]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.11.13-02.38.32:364][620]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.11.13-02.38.32:364][620]LogInit: FAudioDevice initialized with ID 13.
+[2024.11.13-02.38.32:364][620]LogAudio: Display: Audio Device (ID: 13) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.38.32:364][620]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.11.13-02.38.32:366][620]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.38.32:426][620]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.38.32
+[2024.11.13-02.38.32:427][620]LogWorld: Bringing up level for play took: 0.060661
+[2024.11.13-02.38.32:429][620]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.11.13-02.38.32:433][620]PIE: Server logged in
+[2024.11.13-02.38.32:434][620]PIE: Play in editor total start time 0.277 seconds.
+[2024.11.13-02.39.02:712][188]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 90.0
+[2024.11.13-02.39.10:001][ 12]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 80.0
+[2024.11.13-02.39.12:797][325]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 70.0
+[2024.11.13-02.39.12:812][327]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 60.0
+[2024.11.13-02.39.13:648][422]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 50.0
+[2024.11.13-02.39.13:657][423]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 40.0
+[2024.11.13-02.39.15:018][580]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 30.0
+[2024.11.13-02.39.15:148][595]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 20.0
+[2024.11.13-02.39.16:439][743]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 10.0
+[2024.11.13-02.39.16:467][746]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 0.0
+[2024.11.13-02.39.16:467][746]Cmd: quit
+[2024.11.13-02.39.16:469][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.39.16:469][746]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.39.16:501][746]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.39.16:521][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.39.16:526][746]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.39.16:530][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.39.16:555][746]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-02.39.16:555][746]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.11.13-02.39.16:555][746]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.11.13-02.39.16:557][746]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.11.13-02.39.16:560][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.39.16:577][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.11.13-02.39.16:652][747]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.11.13-02.41.05:275][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.13-02.41.06:259][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.41.06:318][603]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Drone/BP_Bot] ([2] browsable assets)...
+[2024.11.13-02.41.06:355][603]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Drone/BP_Bot.BP_Bot]
+[2024.11.13-02.41.06:355][603]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_Bot]
+[2024.11.13-02.41.06:355][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Drone/BP_Bot" FILE="../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset" SILENT=true
+[2024.11.13-02.41.06:379][603]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_Bot
+[2024.11.13-02.41.06:379][603]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_Bot220937F24CEA8C6C480D299737AC0C79.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset'
+[2024.11.13-02.41.06:384][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.020 ms (total: 5.09 sec)
+[2024.11.13-02.41.06:434][603]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.41.06:434][603]LogContentValidation: Enabled validators:
+[2024.11.13-02.41.06:434][603]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.41.06:434][603]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.41.06:434][603]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.41.06:434][603]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.41.06:434][603]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.41.06:434][603]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.41.06:435][603]AssetCheck: /Game/Blueprints/Drone/BP_Bot Validating asset
+[2024.11.13-02.42.18:159][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.42.18:197][ 99]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Drone/BP_Bot] ([2] browsable assets)...
+[2024.11.13-02.42.18:197][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_Bot]
+[2024.11.13-02.42.18:197][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Drone/BP_Bot" FILE="../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset" SILENT=true
+[2024.11.13-02.42.18:220][ 99]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_Bot
+[2024.11.13-02.42.18:221][ 99]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_Bot251D9B744B906B405F377889FCDEBE50.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset'
+[2024.11.13-02.42.18:225][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave took 66.622 ms (total: 5.16 sec)
+[2024.11.13-02.42.18:286][ 99]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.42.18:286][ 99]LogContentValidation: Enabled validators:
+[2024.11.13-02.42.18:286][ 99]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.42.18:286][ 99]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.42.18:286][ 99]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.42.18:286][ 99]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.42.18:286][ 99]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.42.18:286][ 99]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.42.18:286][ 99]AssetCheck: /Game/Blueprints/Drone/BP_Bot Validating asset
+[2024.11.13-02.42.20:423][348]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.42.20:431][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.42.20:470][348]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.42.20:619][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148380s)
+[2024.11.13-02.42.20:619][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.148458s)
+[2024.11.13-02.42.20:639][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.11.13-02.42.20:643][348]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.42.20:645][348]LogPlayLevel: PIE: World Init took: (0.001821s)
+[2024.11.13-02.42.20:646][348]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.11.13-02.42.20:646][348]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.42.20:646][348]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.42.20:646][348]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.42.20:646][348]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.42.20:646][348]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.42.20:646][348]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.42.20:646][348]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.42.20:646][348]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.42.20:646][348]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.42.20:646][348]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.42.20:646][348]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.42.20:648][348]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.42.20:657][348]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.42.20:657][348]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.42.20:657][348]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.42.20:657][348]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.42.20:658][348]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.11.13-02.42.20:658][348]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.11.13-02.42.20:659][348]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.11.13-02.42.20:659][348]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.11.13-02.42.20:659][348]LogInit: FAudioDevice initialized with ID 14.
+[2024.11.13-02.42.20:659][348]LogAudio: Display: Audio Device (ID: 14) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.42.20:659][348]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.13-02.42.20:661][348]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.42.20:720][348]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.42.20
+[2024.11.13-02.42.20:721][348]LogWorld: Bringing up level for play took: 0.058668
+[2024.11.13-02.42.20:723][348]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.11.13-02.42.20:727][348]PIE: Server logged in
+[2024.11.13-02.42.20:727][348]PIE: Play in editor total start time 0.298 seconds.
+[2024.11.13-02.42.34:483][982]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 90.0
+[2024.11.13-02.42.35:232][ 72]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 80.0
+[2024.11.13-02.42.38:280][436]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 70.0
+[2024.11.13-02.42.38:289][437]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 60.0
+[2024.11.13-02.42.38:689][485]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 50.0
+[2024.11.13-02.42.41:565][825]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 40.0
+[2024.11.13-02.42.41:850][859]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 30.0
+[2024.11.13-02.42.42:855][979]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 20.0
+[2024.11.13-02.42.44:869][219]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 10.0
+[2024.11.13-02.42.46:004][355]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 0.0
+[2024.11.13-02.42.46:004][355]Cmd: quit
+[2024.11.13-02.42.46:006][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.42.46:006][355]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.42.46:043][355]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.42.46:061][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.42.46:066][355]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.42.46:070][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.42.46:095][355]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-02.42.46:095][355]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.13-02.42.46:095][355]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.13-02.42.46:097][355]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.13-02.42.46:100][355]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.42.46:115][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.11.13-02.42.46:190][356]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.11.13-02.42.55:759][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.11.13-02.42.58:554][488]LogSlate: Window 'Save Content' being destroyed
+[2024.11.13-02.42.58:574][488]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.42.58:624][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_BlasterBeamBase] ([2] browsable assets)...
+[2024.11.13-02.42.58:624][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_BlasterBeamBase]
+[2024.11.13-02.42.58:630][488]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase
+[2024.11.13-02.42.58:630][488]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_BlasterBeamBase0FA562D345E3D34C1624CF93B9BBDE79.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_BlasterBeamBase.uasset'
+[2024.11.13-02.42.58:634][488]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.680 ms (total: 5.22 sec)
+[2024.11.13-02.42.58:692][488]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.42.58:692][488]LogContentValidation: Enabled validators:
+[2024.11.13-02.42.58:692][488]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.42.58:692][488]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.42.58:692][488]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.42.58:692][488]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.42.58:692][488]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.42.58:692][488]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.42.58:692][488]AssetCheck: /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase Validating asset
+[2024.11.13-02.44.57:158][301]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.44.57:165][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.44.57:188][301]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.44.57:330][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.142675s)
+[2024.11.13-02.44.57:330][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.142715s)
+[2024.11.13-02.44.57:348][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.11.13-02.44.57:350][301]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.44.57:352][301]LogPlayLevel: PIE: World Init took: (0.001399s)
+[2024.11.13-02.44.57:352][301]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.11.13-02.44.57:352][301]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.44.57:352][301]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.44.57:352][301]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.44.57:352][301]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.44.57:352][301]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.44.57:352][301]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.44.57:352][301]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.44.57:352][301]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.44.57:352][301]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.44.57:352][301]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.44.57:352][301]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.44.57:354][301]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.44.57:363][301]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.44.57:363][301]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.44.57:363][301]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.44.57:363][301]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.44.57:363][301]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.11.13-02.44.57:363][301]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.11.13-02.44.57:365][301]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.11.13-02.44.57:365][301]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.11.13-02.44.57:365][301]LogInit: FAudioDevice initialized with ID 15.
+[2024.11.13-02.44.57:365][301]LogAudio: Display: Audio Device (ID: 15) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.44.57:365][301]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.11.13-02.44.57:367][301]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.44.57:423][301]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.44.57
+[2024.11.13-02.44.57:424][301]LogWorld: Bringing up level for play took: 0.056437
+[2024.11.13-02.44.57:425][301]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.11.13-02.44.57:429][301]PIE: Server logged in
+[2024.11.13-02.44.57:430][301]PIE: Play in editor total start time 0.267 seconds.
+[2024.11.13-02.45.08:342][595]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 90.0
+[2024.11.13-02.45.09:440][726]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_SubtractHealth', from offset 552
+[2024.11.13-02.45.09:440][726]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large_C:OnComponentHit_Event_0
+	Function /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large_C:ExecuteUbergraph_BP_PlayerFire_BlasterBeam_Large
+	Function /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase.BP_BlasterBeamBase_C:HandleOnHitToDieOrToQuit
+	Function /Game/Blueprints/Drone/BP_Bot.BP_Bot_C:GetHurt
+	Function /Game/Blueprints/Drone/BP_Bot.BP_Bot_C:ExecuteUbergraph_BP_Bot
+
+[2024.11.13-02.45.46:124][726]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 586
+[2024.11.13-02.45.46:124][726]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large_C:OnComponentHit_Event_0
+	Function /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large_C:ExecuteUbergraph_BP_PlayerFire_BlasterBeam_Large
+	Function /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase.BP_BlasterBeamBase_C:HandleOnHitToDieOrToQuit
+	Function /Game/Blueprints/Drone/BP_Bot.BP_Bot_C:GetHurt
+	Function /Game/Blueprints/Drone/BP_Bot.BP_Bot_C:ExecuteUbergraph_BP_Bot
+
+[2024.11.13-02.45.58:344][730]LogRHI: Error: GpuProfiler's scratch buffer is out of space for this frame (current size : 32 kB). Dropping this frame. The size can be increased dynamically with the console variable r.GpuProfilerMaxEventBufferSizeKB
+[2024.11.13-02.45.58:448][742]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 80.0
+[2024.11.13-02.45.58:657][767]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_SubtractHealth', from offset 552
+[2024.11.13-02.45.58:657][767]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large_C:OnComponentHit_Event_0
+	Function /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large_C:ExecuteUbergraph_BP_PlayerFire_BlasterBeam_Large
+	Function /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase.BP_BlasterBeamBase_C:HandleOnHitToDieOrToQuit
+	Function /Game/Blueprints/Drone/BP_Bot.BP_Bot_C:GetHurt
+	Function /Game/Blueprints/Drone/BP_Bot.BP_Bot_C:ExecuteUbergraph_BP_Bot
+
+[2024.11.13-02.46.16:641][767]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 586
+[2024.11.13-02.46.16:641][767]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large_C:OnComponentHit_Event_0
+	Function /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large_C:ExecuteUbergraph_BP_PlayerFire_BlasterBeam_Large
+	Function /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase.BP_BlasterBeamBase_C:HandleOnHitToDieOrToQuit
+	Function /Game/Blueprints/Drone/BP_Bot.BP_Bot_C:GetHurt
+	Function /Game/Blueprints/Drone/BP_Bot.BP_Bot_C:ExecuteUbergraph_BP_Bot
+
+[2024.11.13-02.46.18:389][768]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 70.0
+[2024.11.13-02.46.18:415][771]LogRHI: Error: GpuProfiler's scratch buffer is out of space for this frame (current size : 32 kB). Dropping this frame. The size can be increased dynamically with the console variable r.GpuProfilerMaxEventBufferSizeKB
+[2024.11.13-02.46.18:457][776]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 60.0
+[2024.11.13-02.46.18:465][777]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 50.0
+[2024.11.13-02.46.18:956][836]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 40.0
+[2024.11.13-02.46.19:256][872]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 30.0
+[2024.11.13-02.46.19:348][883]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 20.0
+[2024.11.13-02.46.19:365][885]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 10.0
+[2024.11.13-02.46.22:420][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.46.22:420][219]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.46.22:421][219]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.46.22:436][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.46.22:441][219]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.46.22:445][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.46.22:466][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.46.22:466][219]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.11.13-02.46.22:467][219]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.11.13-02.46.22:468][219]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.11.13-02.46.22:485][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.13-02.46.22:525][220]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.11.13-02.46.55:376][ 32]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.46.55:384][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.46.55:384][ 32]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.46.55:526][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.142428s)
+[2024.11.13-02.46.55:526][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.142454s)
+[2024.11.13-02.46.55:540][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.13-02.46.55:543][ 32]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.46.55:545][ 32]LogPlayLevel: PIE: World Init took: (0.001669s)
+[2024.11.13-02.46.55:546][ 32]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.11.13-02.46.55:546][ 32]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.46.55:546][ 32]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.46.55:546][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.46.55:546][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.46.55:546][ 32]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.46.55:546][ 32]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.46.55:546][ 32]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.46.55:546][ 32]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.46.55:546][ 32]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.46.55:546][ 32]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.46.55:546][ 32]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.46.55:547][ 32]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.46.55:557][ 32]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.46.55:557][ 32]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.46.55:557][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.46.55:557][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.46.55:557][ 32]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.11.13-02.46.55:557][ 32]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.11.13-02.46.55:559][ 32]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.11.13-02.46.55:559][ 32]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.11.13-02.46.55:559][ 32]LogInit: FAudioDevice initialized with ID 16.
+[2024.11.13-02.46.55:559][ 32]LogAudio: Display: Audio Device (ID: 16) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.46.55:559][ 32]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.11.13-02.46.55:561][ 32]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.46.55:617][ 32]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.46.55
+[2024.11.13-02.46.55:618][ 32]LogWorld: Bringing up level for play took: 0.056907
+[2024.11.13-02.46.55:619][ 32]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.11.13-02.46.55:624][ 32]PIE: Server logged in
+[2024.11.13-02.46.55:625][ 32]PIE: Play in editor total start time 0.242 seconds.
+[2024.11.13-02.47.05:012][141]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_SubtractHealth', from offset 552
+[2024.11.13-02.47.05:012][141]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large_C:OnComponentHit_Event_0
+	Function /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large_C:ExecuteUbergraph_BP_PlayerFire_BlasterBeam_Large
+	Function /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase.BP_BlasterBeamBase_C:HandleOnHitToDieOrToQuit
+	Function /Game/Blueprints/Drone/BP_Bot.BP_Bot_C:GetHurt
+	Function /Game/Blueprints/Drone/BP_Bot.BP_Bot_C:ExecuteUbergraph_BP_Bot
+
+[2024.11.13-02.47.16:141][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.47.16:141][141]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.47.16:142][141]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.47.16:160][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.47.16:165][141]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.47.16:168][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.47.16:191][141]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-02.47.16:191][141]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.11.13-02.47.16:191][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.11.13-02.47.16:192][141]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.11.13-02.47.16:195][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.47.16:208][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.11.13-02.47.16:243][142]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.11.13-02.47.16:259][144]LogRHI: Error: GpuProfiler's scratch buffer is out of space for this frame (current size : 32 kB). Dropping this frame. The size can be increased dynamically with the console variable r.GpuProfilerMaxEventBufferSizeKB
+[2024.11.13-02.47.21:459][727]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Drone/BP_Bot.BP_Bot without an associated node. The blueprint breakpoint has been removed
+[2024.11.13-02.47.21:459][727]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Drone/BP_Bot.BP_Bot without an associated node. The blueprint breakpoint has been removed
+[2024.11.13-02.47.23:844][973]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Drone/BP_Bot.BP_Bot without an associated node. The blueprint breakpoint has been removed
+[2024.11.13-02.47.23:844][973]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Drone/BP_Bot.BP_Bot without an associated node. The blueprint breakpoint has been removed
+[2024.11.13-02.47.29:217][585]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Drone/BP_Bot.BP_Bot without an associated node. The blueprint breakpoint has been removed
+[2024.11.13-02.47.29:217][585]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Drone/BP_Bot.BP_Bot without an associated node. The blueprint breakpoint has been removed
+[2024.11.13-02.47.44:730][389]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large
+[2024.11.13-02.47.44:730][389]LogChaosDD: Creating Chaos Debug Draw Scene for world World_16
+[2024.11.13-02.48.31:694][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.11.13-02.48.32:740][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.48.32:804][982]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large] ([2] browsable assets)...
+[2024.11.13-02.48.32:839][982]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large]
+[2024.11.13-02.48.32:840][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large]
+[2024.11.13-02.48.32:842][982]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large
+[2024.11.13-02.48.32:843][982]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_PlayerFire_BlasterBeam_Large637059FB4DA48B6FD8AF0EA76D4802A7.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.uasset'
+[2024.11.13-02.48.32:848][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.078 ms (total: 5.33 sec)
+[2024.11.13-02.48.32:877][982]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.48.32:877][982]LogContentValidation: Enabled validators:
+[2024.11.13-02.48.32:877][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.48.32:877][982]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.48.32:877][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.48.32:877][982]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.48.32:877][982]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.48.32:877][982]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.48.32:877][982]AssetCheck: /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large Validating asset
+[2024.11.13-02.48.35:210][251]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Medium.BP_PlayerFire_BlasterBeam_Medium
+[2024.11.13-02.48.35:210][251]LogChaosDD: Creating Chaos Debug Draw Scene for world World_17
+[2024.11.13-02.49.00:810][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.11.13-02.49.01:635][244]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.49.01:682][244]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Medium] ([2] browsable assets)...
+[2024.11.13-02.49.01:717][244]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Medium.BP_PlayerFire_BlasterBeam_Medium]
+[2024.11.13-02.49.01:717][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Medium]
+[2024.11.13-02.49.01:720][244]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Medium
+[2024.11.13-02.49.01:720][244]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_PlayerFire_BlasterBeam_Medium782B4CFA4CBED631B29DE59D5319D01C.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Medium.uasset'
+[2024.11.13-02.49.01:726][244]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.823 ms (total: 5.42 sec)
+[2024.11.13-02.49.01:762][244]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.49.01:762][244]LogContentValidation: Enabled validators:
+[2024.11.13-02.49.01:762][244]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.49.01:762][244]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.49.01:762][244]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.49.01:762][244]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.49.01:762][244]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.49.01:762][244]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.49.01:762][244]AssetCheck: /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Medium Validating asset
+[2024.11.13-02.49.05:904][725]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Small.BP_PlayerFire_BlasterBeam_Small
+[2024.11.13-02.49.05:904][725]LogChaosDD: Creating Chaos Debug Draw Scene for world World_18
+[2024.11.13-02.49.35:551][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.13-02.49.36:509][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.49.36:539][204]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Small] ([2] browsable assets)...
+[2024.11.13-02.49.36:576][204]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Small.BP_PlayerFire_BlasterBeam_Small]
+[2024.11.13-02.49.36:576][204]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Small]
+[2024.11.13-02.49.36:579][204]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Small
+[2024.11.13-02.49.36:579][204]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_PlayerFire_BlasterBeam_Small592B861B443F9783D9E9018939BB8341.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Small.uasset'
+[2024.11.13-02.49.36:584][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.402 ms (total: 5.49 sec)
+[2024.11.13-02.49.36:623][204]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.49.36:623][204]LogContentValidation: Enabled validators:
+[2024.11.13-02.49.36:623][204]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.49.36:623][204]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.49.36:623][204]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.49.36:623][204]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.49.36:623][204]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.49.36:623][204]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.49.36:623][204]AssetCheck: /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Small Validating asset
+[2024.11.13-02.49.48:053][547]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Large.BP_EnemyFire_BlasterBeam_Large
+[2024.11.13-02.49.48:053][547]LogChaosDD: Creating Chaos Debug Draw Scene for world World_19
+[2024.11.13-02.50.25:709][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.13-02.50.31:842][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.50.31:894][641]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Large] ([2] browsable assets)...
+[2024.11.13-02.50.31:931][641]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Large.BP_EnemyFire_BlasterBeam_Large]
+[2024.11.13-02.50.31:931][641]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Large]
+[2024.11.13-02.50.31:935][641]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Large
+[2024.11.13-02.50.31:935][641]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_EnemyFire_BlasterBeam_Large5B07708741F37C6BEDD8CEAD1500A573.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Large.uasset'
+[2024.11.13-02.50.31:940][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.267 ms (total: 5.59 sec)
+[2024.11.13-02.50.31:994][641]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.50.31:994][641]LogContentValidation: Enabled validators:
+[2024.11.13-02.50.31:994][641]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.50.31:994][641]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.50.31:994][641]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.50.31:994][641]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.50.31:994][641]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.50.31:994][641]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.50.31:994][641]AssetCheck: /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Large Validating asset
+[2024.11.13-02.50.45:242][179]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Medium.BP_EnemyFire_BlasterBeam_Medium
+[2024.11.13-02.50.45:242][179]LogChaosDD: Creating Chaos Debug Draw Scene for world World_20
+[2024.11.13-02.50.59:163][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.11.13-02.51.00:036][807]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.51.00:080][807]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Medium] ([2] browsable assets)...
+[2024.11.13-02.51.00:115][807]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Medium.BP_EnemyFire_BlasterBeam_Medium]
+[2024.11.13-02.51.00:115][807]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Medium]
+[2024.11.13-02.51.00:119][807]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Medium
+[2024.11.13-02.51.00:119][807]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_EnemyFire_BlasterBeam_MediumB3492EC0491B42B06E5C3193E2ADFB61.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Medium.uasset'
+[2024.11.13-02.51.00:124][807]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.911 ms (total: 5.68 sec)
+[2024.11.13-02.51.00:162][807]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.51.00:162][807]LogContentValidation: Enabled validators:
+[2024.11.13-02.51.00:162][807]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.51.00:162][807]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.51.00:162][807]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.51.00:162][807]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.51.00:162][807]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.51.00:162][807]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.51.00:162][807]AssetCheck: /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Medium Validating asset
+[2024.11.13-02.51.02:631][ 87]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small.BP_EnemyFire_BlasterBeam_Small
+[2024.11.13-02.51.02:631][ 87]LogChaosDD: Creating Chaos Debug Draw Scene for world World_21
+[2024.11.13-02.51.17:151][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.13-02.51.17:939][762]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.51.17:972][762]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small] ([2] browsable assets)...
+[2024.11.13-02.51.18:008][762]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small.BP_EnemyFire_BlasterBeam_Small]
+[2024.11.13-02.51.18:008][762]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small]
+[2024.11.13-02.51.18:011][762]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small
+[2024.11.13-02.51.18:012][762]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_EnemyFire_BlasterBeam_Small9EBA30AE414D6F5AAFBB78B3B2A09917.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small.uasset'
+[2024.11.13-02.51.18:017][762]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.973 ms (total: 5.76 sec)
+[2024.11.13-02.51.18:074][762]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.51.18:074][762]LogContentValidation: Enabled validators:
+[2024.11.13-02.51.18:074][762]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.51.18:074][762]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.51.18:074][762]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.51.18:074][762]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.51.18:074][762]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.51.18:074][762]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.51.18:074][762]AssetCheck: /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small Validating asset
+[2024.11.13-02.52.19:176][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.13-02.52.19:912][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.52.19:949][989]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large] ([2] browsable assets)...
+[2024.11.13-02.52.19:986][989]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large]
+[2024.11.13-02.52.19:986][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large]
+[2024.11.13-02.52.19:989][989]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large
+[2024.11.13-02.52.19:989][989]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_PlayerFire_BlasterBeam_LargeD0B2506C4FB5AF8020D88CA5BECCAAF6.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.uasset'
+[2024.11.13-02.52.19:994][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.897 ms (total: 5.84 sec)
+[2024.11.13-02.52.20:032][989]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.52.20:032][989]LogContentValidation: Enabled validators:
+[2024.11.13-02.52.20:032][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.52.20:032][989]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.52.20:032][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.52.20:032][989]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.52.20:032][989]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.52.20:032][989]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.52.20:032][989]AssetCheck: /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large Validating asset
+[2024.11.13-02.52.31:343][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.13-02.52.32:138][363]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.52.32:196][363]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large] ([2] browsable assets)...
+[2024.11.13-02.52.32:232][363]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.BP_PlayerFire_BlasterBeam_Large]
+[2024.11.13-02.52.32:232][363]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large]
+[2024.11.13-02.52.32:235][363]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large
+[2024.11.13-02.52.32:236][363]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_PlayerFire_BlasterBeam_Large5BED849C42CDD44C5BB473855FA44928.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large.uasset'
+[2024.11.13-02.52.32:241][363]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.984 ms (total: 5.94 sec)
+[2024.11.13-02.52.32:292][363]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.52.32:293][363]LogContentValidation: Enabled validators:
+[2024.11.13-02.52.32:293][363]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.52.32:293][363]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.52.32:293][363]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.52.32:293][363]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.52.32:293][363]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.52.32:293][363]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.52.32:293][363]AssetCheck: /Game/Blueprints/BlasterBeam/BP_PlayerFire_BlasterBeam_Large Validating asset
+[2024.11.13-02.53.00:104][637]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.53.00:167][637]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small] ([2] browsable assets)...
+[2024.11.13-02.53.00:167][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small]
+[2024.11.13-02.53.00:170][637]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small
+[2024.11.13-02.53.00:170][637]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_EnemyFire_BlasterBeam_SmallC136BCCF4F45E80D38CA30B93CFF2A17.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small.uasset'
+[2024.11.13-02.53.00:175][637]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.553 ms (total: 6.01 sec)
+[2024.11.13-02.53.00:212][637]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.53.00:212][637]LogContentValidation: Enabled validators:
+[2024.11.13-02.53.00:212][637]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.53.00:212][637]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.53.00:212][637]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.53.00:212][637]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.53.00:212][637]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.53.00:212][637]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.53.00:212][637]AssetCheck: /Game/Blueprints/BlasterBeam/BP_EnemyFire_BlasterBeam_Small Validating asset
+[2024.11.13-02.53.03:409][  2]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.53.03:416][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.53.03:454][  2]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.53.03:602][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149453s)
+[2024.11.13-02.53.03:602][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.149518s)
+[2024.11.13-02.53.03:620][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.11.13-02.53.03:622][  2]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.53.03:623][  2]LogPlayLevel: PIE: World Init took: (0.001622s)
+[2024.11.13-02.53.03:624][  2]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.11.13-02.53.03:624][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.53.03:624][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.53.03:624][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.53.03:624][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.53.03:624][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.53.03:624][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.53.03:624][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.53.03:624][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.53.03:624][  2]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.53.03:624][  2]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.53.03:624][  2]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.53.03:626][  2]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.53.03:635][  2]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.53.03:636][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.53.03:636][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.53.03:636][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.53.03:636][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.11.13-02.53.03:636][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.11.13-02.53.03:637][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.11.13-02.53.03:637][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.11.13-02.53.03:637][  2]LogInit: FAudioDevice initialized with ID 17.
+[2024.11.13-02.53.03:637][  2]LogAudio: Display: Audio Device (ID: 17) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.53.03:637][  2]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.11.13-02.53.03:640][  2]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.53.03:696][  2]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.53.03
+[2024.11.13-02.53.03:697][  2]LogWorld: Bringing up level for play took: 0.057397
+[2024.11.13-02.53.03:699][  2]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.11.13-02.53.03:703][  2]PIE: Server logged in
+[2024.11.13-02.53.03:704][  2]PIE: Play in editor total start time 0.289 seconds.
+[2024.11.13-02.53.22:567][238]LogBlueprintUserMessages: [BP_Bot_C_0] JUST KILLED: BP_Bot0
+[2024.11.13-02.53.42:811][649]LogBlueprintUserMessages: [BP_Bot_C_1] JUST KILLED: BP_Bot1
+[2024.11.13-02.53.56:483][228]LogBlueprintUserMessages: [BP_Bot_C_2] JUST KILLED: BP_Bot2
+[2024.11.13-02.54.02:351][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.54.02:351][916]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.54.02:352][916]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.54.02:366][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.54.02:373][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.54.02:379][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.54.02:403][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.54.02:408][916]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.11.13-02.54.02:408][916]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.11.13-02.54.02:410][916]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.11.13-02.54.02:430][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.11.13-02.54.02:480][917]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.11.13-02.54.32:116][378]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.11.13-02.54.33:138][483]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.54.33:204][483]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Drone/BP_Bot] ([2] browsable assets)...
+[2024.11.13-02.54.33:244][483]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Drone/BP_Bot.BP_Bot]
+[2024.11.13-02.54.33:244][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_Bot]
+[2024.11.13-02.54.33:244][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Drone/BP_Bot" FILE="../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset" SILENT=true
+[2024.11.13-02.54.33:267][483]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_Bot
+[2024.11.13-02.54.33:267][483]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_Bot9A8692F34A462E58A91AD3AFF1D90B45.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset'
+[2024.11.13-02.54.33:273][483]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.153 ms (total: 6.15 sec)
+[2024.11.13-02.54.33:336][483]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.54.33:337][483]LogContentValidation: Enabled validators:
+[2024.11.13-02.54.33:337][483]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.54.33:337][483]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.54.33:337][483]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.54.33:337][483]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.54.33:337][483]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.54.33:337][483]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.54.33:337][483]AssetCheck: /Game/Blueprints/Drone/BP_Bot Validating asset
+[2024.11.13-02.56.15:581][627]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Drone/SM_Drone.SM_Drone
+[2024.11.13-02.56.15:595][627]LogChaosDD: Creating Chaos Debug Draw Scene for world World_22
+[2024.11.13-02.56.15:601][627]LogStreaming: Display: FlushAsyncLoading(500): 1 QueuedPackages, 0 AsyncPackages
+[2024.11.13-02.56.16:632][628]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2024.11.13-02.56.16:633][628]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2024.11.13-02.56.16:636][628]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2024.11.13-02.56.16:640][628]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2024.11.13-02.56.16:732][628]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2024.11.13-02.56.16:733][628]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2024.11.13-02.56.16:736][628]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2024.11.13-02.56.16:739][628]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2024.11.13-02.56.16:832][628]LogPSOHitching: Encountered 150 PSO creation hitches so far (54 graphics, 96 compute). 0 of them were precached.
+[2024.11.13-02.56.29:998][121]LogContentBrowser: Deferred new asset file creation: SM_Drone1
+[2024.11.13-02.56.30:006][121]LogContentBrowser: Creating deferred item: SM_Drone1
+[2024.11.13-02.56.30:017][122]LogContentBrowser: Renaming the item being created (Deferred Item: SM_Drone1).
+[2024.11.13-02.56.34:600][660]LogContentBrowser: Attempting asset rename: SM_Drone1 -> SM_DroneBoss
+[2024.11.13-02.56.34:609][660]LogContentBrowser: End creating deferred item SM_Drone1
+[2024.11.13-02.56.40:544][323]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.56.40:593][323]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Drone/BP_Bot] ([2] browsable assets)...
+[2024.11.13-02.56.40:593][323]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_Bot]
+[2024.11.13-02.56.40:593][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Drone/BP_Bot" FILE="../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset" SILENT=true
+[2024.11.13-02.56.40:618][323]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_Bot
+[2024.11.13-02.56.40:619][323]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_Bot2E2F92A840A96097F30D348CEECDA35A.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset'
+[2024.11.13-02.56.40:622][323]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.207 ms (total: 6.23 sec)
+[2024.11.13-02.56.40:678][323]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.56.40:678][323]LogContentValidation: Enabled validators:
+[2024.11.13-02.56.40:678][323]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.56.40:678][323]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.56.40:678][323]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.56.40:678][323]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.56.40:678][323]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.56.40:678][323]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.56.40:678][323]AssetCheck: /Game/Blueprints/Drone/BP_Bot Validating asset
+[2024.11.13-02.56.47:384][ 80]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Drone/SM_DroneBoss.SM_DroneBoss
+[2024.11.13-02.56.47:384][ 80]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Drone/SM_DroneBoss.SM_DroneBoss
+[2024.11.13-02.56.47:385][ 80]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Drone/SM_DroneBoss.SM_DroneBoss as actor: StaticMeshActor /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.StaticMeshActor_0
+[2024.11.13-02.56.48:782][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.11.13-02.56.48:785][228]LogEditorActor: Deleted 0 Actors (0.108 secs)
+[2024.11.13-02.56.48:791][228]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Drone/SM_DroneBoss.SM_DroneBoss
+[2024.11.13-02.56.48:791][228]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Drone/SM_DroneBoss.SM_DroneBoss
+[2024.11.13-02.56.48:793][228]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Drone/SM_DroneBoss.SM_DroneBoss as actor: StaticMeshActor /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.StaticMeshActor_1
+[2024.11.13-02.57.50:717][ 77]LogStreaming: Display: FlushAsyncLoading(505): 1 QueuedPackages, 0 AsyncPackages
+[2024.11.13-02.57.51:029][ 77]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: ================================================
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Total job queries 12,878, among them cache hits 113 (0.88%), DDC hits 0 (0.00%), Duplicates 2,929 (22.74%)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Tracking 9,836 distinct input hashes that result in 9,083 distinct outputs (92.34%)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: RAM used: 6.65 MiB of 3.20 GiB budget. Usage: 0.20%
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Shaders Compiled: 9,842
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Jobs assigned 9,842, completed 9,842 (100%)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Average time worker was idle: 127.97 s
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 11.27 s
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Job execution time: average 71.06 s, max 165.27 s
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Job life time (pending + execution): average 71.84 s, max 166.45
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Shader code size: average 14.232 KiB, min 1.16 KiB, max 330.049 KiB
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 220.62 s
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Jobs were issued in 1,845 batches (487 local, 1,358 distributed), average 5.33 jobs/batch (1.30 jobs/local batch. 6.78 jobs/distributed batch)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Average processing rate: 44.61 jobs/sec
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Total thread time: 5,442.199 s
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Total thread preprocess time: 105.192 s
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Percentage time preprocessing: 1.93%
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Effective parallelization: 24.67 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.51 sec, max 15.51 sec, min 15.51 sec)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.35 sec, max 9.27 sec, min 5.22 sec)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.95 sec, max 8.34 sec, min 1.24 sec)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display:                         TBasePassCSTLightMapPolicyHQSkylight (compiled    1 times, average 3.23 sec, max 3.23 sec, min 3.23 sec)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 12.05% of total time (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.88% of total time (compiled  454 times, average 1.42 sec, max 2.09 sec, min 0.91 sec)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.84% of total time (compiled  260 times, average 2.06 sec, max 4.95 sec, min 0.00 sec)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.93% of total time (compiled  480 times, average 0.56 sec, max 0.87 sec, min 0.23 sec)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.57% of total time (compiled   72 times, average 2.70 sec, max 4.05 sec, min 1.84 sec)
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: === Material stats ===
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Materials Translated:    178
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2024.11.13-02.57.58:354][946]LogShaderCompilers: Display: Material Translation Only: 0.05 s (43%)
+[2024.11.13-02.57.58:355][946]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.13-02.57.58:355][946]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.11.13-02.57.58:355][946]LogShaderCompilers: Display: ================================================
+[2024.11.13-02.59.11:349][676]LogStaticMesh: Display: Building static mesh SM_DroneBoss (Required Memory Estimate: 5.80568 MB)...
+[2024.11.13-02.59.11:366][676]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Drone/SM_DroneBoss) ...
+[2024.11.13-02.59.11:373][676]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Drone/SM_DroneBoss.SM_DroneBoss
+[2024.11.13-02.59.16:162][230]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2024.11.13-02.59.42:901][412]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Drone/SM_DroneBoss.SM_DroneBoss
+[2024.11.13-02.59.42:907][412]LogChaosDD: Creating Chaos Debug Draw Scene for world World_23
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: ================================================
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Total job queries 12,885, among them cache hits 116 (0.90%), DDC hits 0 (0.00%), Duplicates 2,929 (22.73%)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Tracking 9,840 distinct input hashes that result in 9,085 distinct outputs (92.33%)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: RAM used: 6.66 MiB of 3.20 GiB budget. Usage: 0.20%
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Shaders Compiled: 9,846
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Jobs assigned 9,846, completed 9,846 (100%)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Average time worker was idle: 128.98 s
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 11.27 s
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Job execution time: average 71.03 s, max 165.27 s
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Job life time (pending + execution): average 71.81 s, max 166.45
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Shader code size: average 14.228 KiB, min 1.16 KiB, max 330.049 KiB
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 221.32 s
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Jobs were issued in 1,849 batches (491 local, 1,358 distributed), average 5.33 jobs/batch (1.29 jobs/local batch. 6.78 jobs/distributed batch)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Average processing rate: 44.49 jobs/sec
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Total thread time: 5,443.122 s
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Total thread preprocess time: 105.247 s
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Percentage time preprocessing: 1.93%
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Effective parallelization: 24.59 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.51 sec, max 15.51 sec, min 15.51 sec)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.35 sec, max 9.27 sec, min 5.22 sec)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.95 sec, max 8.34 sec, min 1.24 sec)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display:                         TBasePassCSTLightMapPolicyHQSkylight (compiled    1 times, average 3.23 sec, max 3.23 sec, min 3.23 sec)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 12.04% of total time (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.88% of total time (compiled  454 times, average 1.42 sec, max 2.09 sec, min 0.91 sec)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.84% of total time (compiled  260 times, average 2.06 sec, max 4.95 sec, min 0.00 sec)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.93% of total time (compiled  480 times, average 0.56 sec, max 0.87 sec, min 0.23 sec)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.57% of total time (compiled   72 times, average 2.70 sec, max 4.05 sec, min 1.84 sec)
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: === Material stats ===
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.13-03.00.58:365][307]LogShaderCompilers: Display: Materials Translated:    178
+[2024.11.13-03.00.58:367][307]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2024.11.13-03.00.58:367][307]LogShaderCompilers: Display: Material Translation Only: 0.05 s (43%)
+[2024.11.13-03.00.58:367][307]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.13-03.00.58:367][307]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.11.13-03.00.58:367][307]LogShaderCompilers: Display: ================================================
+[2024.11.13-03.01.43:142][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.13-03.01.43:659][594]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Asian_Village/maps/Asian_Village_Demo_Auto2
+[2024.11.13-03.01.43:659][594]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Asian_Village_Demo_Auto26D539D94429F47CBB29173936B2C8725.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Autosaves/Game/Asian_Village/maps/Asian_Village_Demo_Auto2.umap'
+[2024.11.13-03.01.43:660][594]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Asian_Village/maps/Asian_Village_Demo' took 0.727
+[2024.11.13-03.01.43:661][594]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.727
+[2024.11.13-03.01.43:661][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Drone/SM_DroneBoss] ([1] browsable assets)...
+[2024.11.13-03.01.43:698][594]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Drone/SM_DroneBoss.SM_DroneBoss]
+[2024.11.13-03.01.43:698][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Drone/SM_DroneBoss]
+[2024.11.13-03.01.43:702][594]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Drone/SM_DroneBoss_Auto2
+[2024.11.13-03.01.43:702][594]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/SM_DroneBoss_Auto2E4C9719A4ACD1CBA6BEF30B6E0604AB4.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Autosaves/Game/Assets/Drone/SM_DroneBoss_Auto2.uasset'
+[2024.11.13-03.01.43:703][594]LogFileHelpers: Auto-saving content packages took 0.042
+[2024.11.13-03.11.43:623][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.11.13-03.11.43:626][401]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Asian_Village/maps/Asian_Village_Demo' took 0.020
+[2024.11.13-03.11.43:626][401]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Drone/SM_DroneBoss] ([1] browsable assets)...
+[2024.11.13-03.11.43:626][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Drone/SM_DroneBoss]
+[2024.11.13-03.11.43:629][401]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Drone/SM_DroneBoss_Auto3
+[2024.11.13-03.11.43:629][401]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/SM_DroneBoss_Auto346952FB9420A605760B0AB97B9B5C667.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Autosaves/Game/Assets/Drone/SM_DroneBoss_Auto3.uasset'
+[2024.11.13-03.11.43:630][401]LogFileHelpers: Auto-saving content packages took 0.005
+[2024.11.13-03.23.07:457][454]LogDerivedDataCache: C:/Users/tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.11.13-04.23.07:609][447]LogDerivedDataCache: C:/Users/tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.11.13-04.45.54:261][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.13-04.45.54:265][ 99]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Asian_Village/maps/Asian_Village_Demo' took 0.022
+[2024.11.13-04.45.54:265][ 99]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Drone/SM_DroneBoss] ([1] browsable assets)...
+[2024.11.13-04.45.54:265][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Drone/SM_DroneBoss]
+[2024.11.13-04.45.54:269][ 99]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Drone/SM_DroneBoss_Auto4
+[2024.11.13-04.45.54:269][ 99]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/SM_DroneBoss_Auto49D5EEC4F4B9C90FD46B8A6A6A2D1E475.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Autosaves/Game/Assets/Drone/SM_DroneBoss_Auto4.uasset'
+[2024.11.13-04.45.54:269][ 99]LogFileHelpers: Auto-saving content packages took 0.005
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: ================================================
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Total job queries 12,887, among them cache hits 116 (0.90%), DDC hits 0 (0.00%), Duplicates 2,929 (22.73%)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Tracking 9,842 distinct input hashes that result in 9,086 distinct outputs (92.32%)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: RAM used: 6.66 MiB of 3.20 GiB budget. Usage: 0.20%
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Shaders Compiled: 9,848
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Jobs assigned 9,848, completed 9,848 (100%)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Average time worker was idle: 156.49 s
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 11.27 s
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Job execution time: average 71.02 s, max 165.27 s
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Job life time (pending + execution): average 71.79 s, max 166.45
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Shader code size: average 14.227 KiB, min 1.16 KiB, max 330.049 KiB
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 222.37 s
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Jobs were issued in 1,851 batches (493 local, 1,358 distributed), average 5.32 jobs/batch (1.29 jobs/local batch. 6.78 jobs/distributed batch)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Average processing rate: 44.29 jobs/sec
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Total thread time: 5,443.513 s
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Total thread preprocess time: 105.263 s
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Percentage time preprocessing: 1.93%
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Effective parallelization: 24.48 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.51 sec, max 15.51 sec, min 15.51 sec)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.35 sec, max 9.27 sec, min 5.22 sec)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.95 sec, max 8.34 sec, min 1.24 sec)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display:                         TBasePassCSTLightMapPolicyHQSkylight (compiled    1 times, average 3.23 sec, max 3.23 sec, min 3.23 sec)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 12.04% of total time (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.88% of total time (compiled  454 times, average 1.42 sec, max 2.09 sec, min 0.91 sec)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.84% of total time (compiled  260 times, average 2.06 sec, max 4.95 sec, min 0.00 sec)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.93% of total time (compiled  480 times, average 0.56 sec, max 0.87 sec, min 0.23 sec)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.57% of total time (compiled   72 times, average 2.70 sec, max 4.05 sec, min 1.84 sec)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: === Material stats ===
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Materials Translated:    178
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Material Translation Only: 0.05 s (43%)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.11.13-04.51.58:800][329]LogShaderCompilers: Display: ================================================
+[2024.11.13-04.52.53:787][307]LogD3D12RHI: Creating RTPSO with 9 shaders (4 cached, 5 new) took 8864.50 ms. Compile time 43.79 ms, link time 8820.70 ms.
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: ================================================
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Total job queries 12,899, among them cache hits 118 (0.91%), DDC hits 0 (0.00%), Duplicates 2,929 (22.71%)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Tracking 9,852 distinct input hashes that result in 9,092 distinct outputs (92.29%)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: RAM used: 6.66 MiB of 3.20 GiB budget. Usage: 0.20%
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Shaders Compiled: 9,858
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Jobs assigned 9,858, completed 9,858 (100%)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Average time worker was idle: 215.52 s
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 11.27 s
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Job execution time: average 70.94 s, max 165.27 s
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Job life time (pending + execution): average 71.72 s, max 166.45
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Shader code size: average 14.22 KiB, min 1.16 KiB, max 330.049 KiB
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 224.29 s
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Jobs were issued in 1,861 batches (503 local, 1,358 distributed), average 5.30 jobs/batch (1.29 jobs/local batch. 6.78 jobs/distributed batch)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Average processing rate: 43.95 jobs/sec
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Total thread time: 5,446.153 s
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Total thread preprocess time: 105.356 s
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Percentage time preprocessing: 1.93%
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Effective parallelization: 24.28 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.51 sec, max 15.51 sec, min 15.51 sec)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.35 sec, max 9.27 sec, min 5.22 sec)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.95 sec, max 8.34 sec, min 1.24 sec)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display:                         TBasePassCSTLightMapPolicyHQSkylight (compiled    1 times, average 3.23 sec, max 3.23 sec, min 3.23 sec)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 12.04% of total time (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.87% of total time (compiled  454 times, average 1.42 sec, max 2.09 sec, min 0.91 sec)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.83% of total time (compiled  260 times, average 2.06 sec, max 4.95 sec, min 0.00 sec)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.93% of total time (compiled  480 times, average 0.56 sec, max 0.87 sec, min 0.23 sec)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.56% of total time (compiled   72 times, average 2.70 sec, max 4.05 sec, min 1.84 sec)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: === Material stats ===
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Materials Translated:    178
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Material Translation Only: 0.05 s (43%)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.11.13-04.54.58:808][196]LogShaderCompilers: Display: ================================================
+[2024.11.13-04.56.51:263][669]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-04.56.51:310][669]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Drone/SM_DroneBoss] ([1] browsable assets)...
+[2024.11.13-04.56.51:310][669]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Drone/SM_DroneBoss]
+[2024.11.13-04.56.51:313][669]LogSavePackage: Moving output files for package: /Game/Assets/Drone/SM_DroneBoss
+[2024.11.13-04.56.51:313][669]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/SM_DroneBossCF9F8C034DEA84A7970DD0918D244812.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Assets/Drone/SM_DroneBoss.uasset'
+[2024.11.13-04.56.51:319][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 56.294 ms (total: 6.28 sec)
+[2024.11.13-04.56.51:359][669]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-04.56.51:359][669]LogContentValidation: Enabled validators:
+[2024.11.13-04.56.51:359][669]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-04.56.51:359][669]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-04.56.51:359][669]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-04.56.51:359][669]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-04.56.51:359][669]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-04.56.51:359][669]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-04.56.51:359][669]AssetCheck: /Game/Assets/Drone/SM_DroneBoss Validating asset
+[2024.11.13-04.57.44:007][981]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-04.57.44:062][981]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Drone/SM_DroneBoss] ([1] browsable assets)...
+[2024.11.13-04.57.44:062][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Drone/SM_DroneBoss]
+[2024.11.13-04.57.44:066][981]LogSavePackage: Moving output files for package: /Game/Assets/Drone/SM_DroneBoss
+[2024.11.13-04.57.44:066][981]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/SM_DroneBossCFED181E4BD2B6FF0B5FEBA958F7B2E6.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Assets/Drone/SM_DroneBoss.uasset'
+[2024.11.13-04.57.44:070][981]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.540 ms (total: 6.35 sec)
+[2024.11.13-04.57.44:110][981]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-04.57.44:110][981]LogContentValidation: Enabled validators:
+[2024.11.13-04.57.44:110][981]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-04.57.44:110][981]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-04.57.44:110][981]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-04.57.44:110][981]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-04.57.44:110][981]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-04.57.44:110][981]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-04.57.44:110][981]AssetCheck: /Game/Assets/Drone/SM_DroneBoss Validating asset
+[2024.11.13-04.57.51:020][787]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-04.57.51:046][787]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Drone/SM_DroneBoss] ([1] browsable assets)...
+[2024.11.13-04.57.51:046][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Drone/SM_DroneBoss]
+[2024.11.13-04.57.51:050][787]LogSavePackage: Moving output files for package: /Game/Assets/Drone/SM_DroneBoss
+[2024.11.13-04.57.51:050][787]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/SM_DroneBoss2B8F3C52412C9C506CAA11881852512E.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Assets/Drone/SM_DroneBoss.uasset'
+[2024.11.13-04.57.51:054][787]LogFileHelpers: InternalPromptForCheckoutAndSave took 33.911 ms (total: 6.38 sec)
+[2024.11.13-04.57.51:101][787]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-04.57.51:101][787]LogContentValidation: Enabled validators:
+[2024.11.13-04.57.51:101][787]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-04.57.51:101][787]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-04.57.51:101][787]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-04.57.51:101][787]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-04.57.51:101][787]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-04.57.51:101][787]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-04.57.51:101][787]AssetCheck: /Game/Assets/Drone/SM_DroneBoss Validating asset
+[2024.11.13-04.58.09:558][914]LogContentBrowser: Deferred new asset file creation: BP_Bot_Child
+[2024.11.13-04.58.09:563][914]LogContentBrowser: Creating deferred item: BP_Bot_Child
+[2024.11.13-04.58.09:568][915]LogContentBrowser: Renaming the item being created (Deferred Item: BP_Bot_Child).
+[2024.11.13-04.58.19:753][128]LogContentBrowser: Attempting asset rename: BP_Bot_Child -> BP_BotBoss
+[2024.11.13-04.58.19:759][128]LogContentBrowser: End creating deferred item BP_Bot_Child
+[2024.11.13-04.58.19:760][128]LogChaosDD: Creating Chaos Debug Draw Scene for world World_24
+[2024.11.13-04.58.26:595][931]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Drone/BP_BotBoss.BP_BotBoss
+[2024.11.13-04.58.26:596][931]LogChaosDD: Creating Chaos Debug Draw Scene for world World_25
+[2024.11.13-04.59.11:080][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.11.13-05.00.20:826][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: ================================================
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Total job queries 12,928, among them cache hits 128 (0.99%), DDC hits 0 (0.00%), Duplicates 2,929 (22.66%)
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Tracking 9,871 distinct input hashes that result in 9,110 distinct outputs (92.29%)
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: RAM used: 6.66 MiB of 3.20 GiB budget. Usage: 0.20%
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Shaders Compiled: 9,877
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Jobs assigned 9,877, completed 9,877 (100%)
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Average time worker was idle: 311.71 s
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 11.27 s
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Job execution time: average 70.81 s, max 165.27 s
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Job life time (pending + execution): average 71.59 s, max 166.45
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Shader code size: average 14.211 KiB, min 1.16 KiB, max 330.049 KiB
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 228.02 s
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Jobs were issued in 1,880 batches (522 local, 1,358 distributed), average 5.25 jobs/batch (1.28 jobs/local batch. 6.78 jobs/distributed batch)
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Average processing rate: 43.32 jobs/sec
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Total thread time: 5,453.494 s
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Total thread preprocess time: 105.655 s
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Percentage time preprocessing: 1.94%
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Effective parallelization: 23.92 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.51 sec, max 15.51 sec, min 15.51 sec)
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.35 sec, max 9.27 sec, min 5.22 sec)
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.95 sec, max 8.34 sec, min 1.24 sec)
+[2024.11.13-05.00.58:822][797]LogShaderCompilers: Display:                         TBasePassCSTLightMapPolicyHQSkylight (compiled    1 times, average 3.23 sec, max 3.23 sec, min 3.23 sec)
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 12.02% of total time (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.85% of total time (compiled  454 times, average 1.42 sec, max 2.09 sec, min 0.91 sec)
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.82% of total time (compiled  260 times, average 2.06 sec, max 4.95 sec, min 0.00 sec)
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.92% of total time (compiled  480 times, average 0.56 sec, max 0.87 sec, min 0.23 sec)
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.56% of total time (compiled   72 times, average 2.70 sec, max 4.05 sec, min 1.84 sec)
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display: === Material stats ===
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display: Materials Translated:    178
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display: Material Translation Only: 0.05 s (43%)
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.11.13-05.00.58:823][797]LogShaderCompilers: Display: ================================================
+[2024.11.13-05.01.18:086][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.13-05.01.42:144][827]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Drone/BP_BotSpawner.BP_BotSpawner_C
+[2024.11.13-05.01.42:144][827]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Drone/BP_BotSpawner.BP_BotSpawner_C
+[2024.11.13-05.01.42:145][827]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Drone/BP_BotSpawner.BP_BotSpawner as actor: BP_BotSpawner_C /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.BP_BotSpawner_C_3
+[2024.11.13-05.01.42:146][827]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Drone/BP_BotSpawner.BP_BotSpawner as actor: BP_BotSpawner_C /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.BP_BotSpawner_C_3
+[2024.11.13-05.01.45:759][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.11.13-05.01.45:780][208]LogEditorActor: Deleted 0 Actors (0.035 secs)
+[2024.11.13-05.01.45:785][208]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Drone/BP_BotSpawner.BP_BotSpawner_C
+[2024.11.13-05.01.45:785][208]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Drone/BP_BotSpawner.BP_BotSpawner_C
+[2024.11.13-05.01.45:788][208]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Drone/BP_BotSpawner.BP_BotSpawner as actor: BP_BotSpawner_C /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.BP_BotSpawner_C_4
+[2024.11.13-05.01.45:790][208]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Drone/BP_BotSpawner.BP_BotSpawner as actor: BP_BotSpawner_C /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.BP_BotSpawner_C_4
+[2024.11.13-05.02.32:106][649]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TargetPoint
+[2024.11.13-05.02.32:107][649]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TargetPoint
+[2024.11.13-05.02.32:109][649]LogActorFactory: Actor Factory spawned Class /Script/Engine.TargetPoint as actor: TargetPoint /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.TargetPoint_9
+[2024.11.13-05.02.32:110][649]LogActorFactory: Actor Factory spawned Class /Script/Engine.TargetPoint as actor: TargetPoint /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.TargetPoint_9
+[2024.11.13-05.04.25:575][ 56]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.11.13-05.04.25:575][ 56]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.11.13-05.05.04:519][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.11.13-05.05.05:044][600]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Asian_Village/maps/Asian_Village_Demo_Auto5
+[2024.11.13-05.05.05:044][600]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Asian_Village_Demo_Auto5C68924764CD6134B1741CB9DB697544A.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Autosaves/Game/Asian_Village/maps/Asian_Village_Demo_Auto5.umap'
+[2024.11.13-05.05.05:046][600]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Asian_Village/maps/Asian_Village_Demo' took 0.545
+[2024.11.13-05.05.05:046][600]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.545
+[2024.11.13-05.05.05:046][600]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Drone/BP_BotSpawner] ([2] browsable assets)...
+[2024.11.13-05.05.05:046][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_BotSpawner]
+[2024.11.13-05.05.05:050][600]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Drone/BP_BotSpawner_Auto5
+[2024.11.13-05.05.05:050][600]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_BotSpawner_Auto5FDE1C1B149F7D71F76736EA877C1BF9D.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Autosaves/Game/Blueprints/Drone/BP_BotSpawner_Auto5.uasset'
+[2024.11.13-05.05.05:050][600]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Drone/BP_BotBoss] ([2] browsable assets)...
+[2024.11.13-05.05.05:087][600]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Drone/BP_BotBoss.BP_BotBoss]
+[2024.11.13-05.05.05:087][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_BotBoss]
+[2024.11.13-05.05.05:090][600]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Drone/BP_BotBoss_Auto5
+[2024.11.13-05.05.05:090][600]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_BotBoss_Auto5E9CB54B74BBC669BB0848FA8AA50003E.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Autosaves/Game/Blueprints/Drone/BP_BotBoss_Auto5.uasset'
+[2024.11.13-05.05.05:091][600]LogFileHelpers: Auto-saving content packages took 0.046
+[2024.11.13-05.05.24:621][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-05.05.24:663][898]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-05.05.24:823][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.160546s)
+[2024.11.13-05.05.24:823][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.160620s)
+[2024.11.13-05.05.24:838][898]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.13-05.05.24:841][898]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-05.05.24:842][898]LogPlayLevel: PIE: World Init took: (0.001699s)
+[2024.11.13-05.05.24:842][898]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.11.13-05.05.24:842][898]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-05.05.24:842][898]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-05.05.24:842][898]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-05.05.24:842][898]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-05.05.24:842][898]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-05.05.24:842][898]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-05.05.24:842][898]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-05.05.24:842][898]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-05.05.24:842][898]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-05.05.24:842][898]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-05.05.24:842][898]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-05.05.24:846][898]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-05.05.24:855][898]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-05.05.24:855][898]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-05.05.24:855][898]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-05.05.24:855][898]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-05.05.24:856][898]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.11.13-05.05.24:856][898]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.11.13-05.05.24:857][898]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.11.13-05.05.24:857][898]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.11.13-05.05.24:857][898]LogInit: FAudioDevice initialized with ID 18.
+[2024.11.13-05.05.24:857][898]LogAudio: Display: Audio Device (ID: 18) registered with world 'Asian_Village_Demo'.
+[2024.11.13-05.05.24:857][898]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.11.13-05.05.24:860][898]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-05.05.24:922][898]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-21.05.24
+[2024.11.13-05.05.24:922][898]LogWorld: Bringing up level for play took: 0.062465
+[2024.11.13-05.05.24:924][898]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2024.11.13-05.05.24:929][898]PIE: Server logged in
+[2024.11.13-05.05.24:930][898]PIE: Play in editor total start time 0.311 seconds.
+[2024.11.13-05.05.46:337][450]LogBlueprintUserMessages: [BP_BotBoss_C_0] JUST KILLED: BP_BotBoss0
+[2024.11.13-05.06.19:154][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-05.06.19:154][347]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-05.06.19:155][347]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-05.06.19:171][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-05.06.19:186][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-05.06.19:191][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-05.06.19:213][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-05.06.19:218][347]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.11.13-05.06.19:218][347]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.11.13-05.06.19:220][347]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.11.13-05.06.19:239][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.11.13-05.06.19:303][348]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2024.11.13-05.06.32:358][891]Cmd: DELETE
+[2024.11.13-05.06.32:358][891]Cmd: ACTOR DELETE
+[2024.11.13-05.06.32:386][891]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.13-05.06.32:406][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.11.13-05.06.32:410][891]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2024.11.13-05.09.47:086][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.13-05.10.57:292][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.13-05.11.30:132][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.11.13-05.11.31:050][338]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-05.11.31:100][338]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Drone/BP_Bot] ([2] browsable assets)...
+[2024.11.13-05.11.31:137][338]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Drone/BP_Bot.BP_Bot]
+[2024.11.13-05.11.31:137][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_Bot]
+[2024.11.13-05.11.31:137][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Drone/BP_Bot" FILE="../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset" SILENT=true
+[2024.11.13-05.11.31:160][338]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_Bot
+[2024.11.13-05.11.31:161][338]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_Bot2F8B2D5C476D6A30FF8E07B47B0014DC.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset'
+[2024.11.13-05.11.31:165][338]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.360 ms (total: 6.50 sec)
+[2024.11.13-05.11.31:216][338]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-05.11.31:216][338]LogContentValidation: Enabled validators:
+[2024.11.13-05.11.31:216][338]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-05.11.31:216][338]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-05.11.31:216][338]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-05.11.31:216][338]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-05.11.31:216][338]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-05.11.31:216][338]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-05.11.31:216][338]AssetCheck: /Game/Blueprints/Drone/BP_Bot Validating asset
+[2024.11.13-05.11.37:292][ 32]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-05.11.37:299][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-05.11.37:333][ 32]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-05.11.37:479][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.146104s)
+[2024.11.13-05.11.37:479][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.146153s)
+[2024.11.13-05.11.37:495][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.11.13-05.11.37:499][ 32]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-05.11.37:501][ 32]LogPlayLevel: PIE: World Init took: (0.001662s)
+[2024.11.13-05.11.37:502][ 32]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.11.13-05.11.37:502][ 32]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-05.11.37:502][ 32]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-05.11.37:502][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-05.11.37:502][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-05.11.37:502][ 32]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-05.11.37:502][ 32]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-05.11.37:502][ 32]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-05.11.37:502][ 32]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-05.11.37:502][ 32]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-05.11.37:502][ 32]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-05.11.37:502][ 32]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-05.11.37:504][ 32]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-05.11.37:513][ 32]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-05.11.37:514][ 32]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-05.11.37:514][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-05.11.37:514][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-05.11.37:514][ 32]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.11.13-05.11.37:514][ 32]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.11.13-05.11.37:515][ 32]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.11.13-05.11.37:515][ 32]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.11.13-05.11.37:515][ 32]LogInit: FAudioDevice initialized with ID 19.
+[2024.11.13-05.11.37:515][ 32]LogAudio: Display: Audio Device (ID: 19) registered with world 'Asian_Village_Demo'.
+[2024.11.13-05.11.37:515][ 32]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.11.13-05.11.37:518][ 32]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-05.11.37:580][ 32]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-21.11.37
+[2024.11.13-05.11.37:581][ 32]LogWorld: Bringing up level for play took: 0.063284
+[2024.11.13-05.11.37:584][ 32]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2024.11.13-05.11.37:587][ 32]PIE: Server logged in
+[2024.11.13-05.11.37:588][ 32]PIE: Play in editor total start time 0.29 seconds.
+[2024.11.13-05.11.46:568][ 82]LogBlueprintUserMessages: [BP_Bot_C_0] JUST KILLED: BP_Bot0
+[2024.11.13-05.11.57:888][437]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 99.0
+[2024.11.13-05.11.58:923][560]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 94.0
+[2024.11.13-05.12.03:950][154]LogBlueprintUserMessages: [BP_Bot_C_1] JUST KILLED: BP_Bot1
+[2024.11.13-05.12.15:678][531]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 93.0
+[2024.11.13-05.12.15:773][542]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 83.0
+[2024.11.13-05.12.15:907][558]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 82.0
+[2024.11.13-05.12.15:923][560]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 77.0
+[2024.11.13-05.12.16:876][669]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 76.0
+[2024.11.13-05.12.16:900][672]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 71.0
+[2024.11.13-05.12.17:176][705]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 70.0
+[2024.11.13-05.12.17:504][744]LogBlueprintUserMessages: [BP_Bot_C_2] JUST KILLED: BP_Bot2
+[2024.11.13-05.12.38:323][229]LogBlueprintUserMessages: [BP_BotBoss_C_0] JUST KILLED: BP_BotBoss0
+[2024.11.13-05.13.35:995][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-05.13.35:995][143]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-05.13.35:997][143]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-05.13.36:015][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-05.13.36:020][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-05.13.36:025][143]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-05.13.36:047][143]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-05.13.36:047][143]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.11.13-05.13.36:047][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.11.13-05.13.36:049][143]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.11.13-05.13.36:053][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-05.13.36:066][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.11.13-05.13.36:140][144]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2024.11.13-05.13.41:573][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.13-05.13.42:888][782]LogSlate: Window 'Save Content' being destroyed
+[2024.11.13-05.13.42:909][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-05.13.42:998][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.11.13-05.13.43:504][782]LogSavePackage: Moving output files for package: /Game/Asian_Village/maps/Asian_Village_Demo
+[2024.11.13-05.13.43:505][782]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Asian_Village_Demo85C622B04FCCDF4A54CAECB64A657310.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Asian_Village/maps/Asian_Village_Demo.umap'
+[2024.11.13-05.13.43:522][782]LogFileHelpers: All files are already saved.
+[2024.11.13-05.13.43:522][782]LogFileHelpers: Saving map 'Asian_Village_Demo' took 0.557
+[2024.11.13-05.13.43:523][782]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Drone/BP_BotBoss] ([2] browsable assets)...
+[2024.11.13-05.13.43:559][782]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Drone/BP_BotBoss.BP_BotBoss]
+[2024.11.13-05.13.43:559][782]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_BotBoss]
+[2024.11.13-05.13.43:562][782]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_BotBoss
+[2024.11.13-05.13.43:562][782]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_BotBossB94FFDE8485F54318F976C957A7BBB29.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_BotBoss.uasset'
+[2024.11.13-05.13.43:565][782]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Drone/BP_BotSpawner] ([2] browsable assets)...
+[2024.11.13-05.13.43:565][782]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_BotSpawner]
+[2024.11.13-05.13.43:567][782]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_BotSpawner
+[2024.11.13-05.13.43:568][782]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_BotSpawner939182AC460112297AF34DAF9DED038B.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_BotSpawner.uasset'
+[2024.11.13-05.13.43:573][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 664.577 ms (total: 7.16 sec)
+[2024.11.13-05.13.43:629][782]LogContentValidation: Display: Starting to validate 3 assets
+[2024.11.13-05.13.43:629][782]LogContentValidation: Enabled validators:
+[2024.11.13-05.13.43:629][782]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-05.13.43:629][782]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-05.13.43:629][782]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-05.13.43:629][782]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-05.13.43:629][782]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-05.13.43:629][782]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-05.13.43:630][782]AssetCheck: /Game/Asian_Village/maps/Asian_Village_Demo Validating asset
+[2024.11.13-05.13.43:630][782]AssetCheck: /Game/Blueprints/Drone/BP_BotBoss Validating asset
+[2024.11.13-05.13.43:630][782]AssetCheck: /Game/Blueprints/Drone/BP_BotSpawner Validating asset
