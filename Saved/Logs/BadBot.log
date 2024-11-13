@@ -2073,3 +2073,968 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.11.13-01.57.02:190][140]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.11.13-01.57.02:190][140]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2024.11.13-01.57.02:191][140]AssetCheck: /Game/Asian_Village/maps/Asian_Village_Demo Validating asset
+[2024.11.13-01.59.20:231][ 48]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.5.0-37670630+++UE5+Release-5.5
+[2024.11.13-01.59.20:314][ 48]LogAnalytics: Display: [UEEditor.UnrealEngine.Release] Destroying ET Analytics provider
+[2024.11.13-01.59.20:314][ 48]LogAnalytics: Display: [UEEditor.UnrealEngine.Release] Destroyed ET Analytics provider
+[2024.11.13-01.59.20:314][ 48]LogAnalyticsSessionSummarySender: Sent summary session report for: AppId=UEEditor.UnrealEngine.Release SessionId={531CE674-4EBB-9D8C-0AFC-608ACD70006D}
+[2024.11.13-01.59.46:551][643]LogChaosDD: Creating Chaos Debug Draw Scene for world World_5
+[2024.11.13-01.59.47:894][785]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/SmallSphere/BP_SphereSpawner.BP_SphereSpawner
+[2024.11.13-01.59.47:894][785]LogChaosDD: Creating Chaos Debug Draw Scene for world World_6
+[2024.11.13-01.59.48:081][785]LogSlate: Took 0.003917 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: ================================================
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Total job queries 12,805, among them cache hits 101 (0.79%), DDC hits 0 (0.00%), Duplicates 2,929 (22.87%)
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Tracking 9,775 distinct input hashes that result in 9,044 distinct outputs (92.52%)
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: RAM used: 6.64 MiB of 3.20 GiB budget. Usage: 0.20%
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Shaders Compiled: 9,781
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Jobs assigned 9,781, completed 9,781 (100%)
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Average time worker was idle: 39.67 s
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 11.27 s
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Job execution time: average 71.50 s, max 165.27 s
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Job life time (pending + execution): average 72.28 s, max 166.45
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Shader code size: average 14.24 KiB, min 1.16 KiB, max 330.049 KiB
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 211.65 s
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Jobs were issued in 1,784 batches (426 local, 1,358 distributed), average 5.48 jobs/batch (1.34 jobs/local batch. 6.78 jobs/distributed batch)
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Average processing rate: 46.21 jobs/sec
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Total thread time: 5,428.599 s
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Total thread preprocess time: 104.825 s
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Percentage time preprocessing: 1.93%
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Effective parallelization: 25.65 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.51 sec, max 15.51 sec, min 15.51 sec)
+[2024.11.13-02.00.20:206][609]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.35 sec, max 9.27 sec, min 5.22 sec)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.95 sec, max 8.34 sec, min 1.24 sec)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display:                         TBasePassCSTLightMapPolicyHQSkylight (compiled    1 times, average 3.23 sec, max 3.23 sec, min 3.23 sec)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 12.08% of total time (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.91% of total time (compiled  454 times, average 1.42 sec, max 2.09 sec, min 0.91 sec)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.87% of total time (compiled  260 times, average 2.06 sec, max 4.95 sec, min 0.00 sec)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.94% of total time (compiled  480 times, average 0.56 sec, max 0.87 sec, min 0.23 sec)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.57% of total time (compiled   72 times, average 2.70 sec, max 4.05 sec, min 1.84 sec)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display: === Material stats ===
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display: Materials Translated:    174
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display: Material Translation Only: 0.05 s (44%)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.11.13-02.00.20:207][609]LogShaderCompilers: Display: ================================================
+[2024.11.13-02.07.46:136][534]LogBlueprint: Error: [AssetLog] C:\Users\tom\Documents\Unreal Projects\Blueprints\Blueprints_BadBot\Content\Blueprints\Drone\BP_BotSpawner.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'BeginDeferredActorSpawnFromClass' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2024.11.13-02.07.46:136][534]LogBlueprint: Error: [AssetLog] C:\Users\tom\Documents\Unreal Projects\Blueprints\Blueprints_BadBot\Content\Blueprints\Drone\BP_BotSpawner.uasset: [Compiler] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' in action 'FinishSpawningActor' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2024.11.13-02.07.46:144][534]LogStreaming: Display: FlushAsyncLoading(499): 1 QueuedPackages, 0 AsyncPackages
+[2024.11.13-02.07.46:225][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.11.13-02.08.30:989][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.11.13-02.08.32:121][932]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.08.32:173][932]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Drone/BP_BotSpawner] ([2] browsable assets)...
+[2024.11.13-02.08.32:173][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_BotSpawner]
+[2024.11.13-02.08.32:176][932]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_BotSpawner
+[2024.11.13-02.08.32:177][932]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_BotSpawnerF96ED5FC4859038A1F2718AA1B93E547.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_BotSpawner.uasset'
+[2024.11.13-02.08.32:181][932]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.127 ms (total: 3.38 sec)
+[2024.11.13-02.08.32:218][932]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.08.32:218][932]LogContentValidation: Enabled validators:
+[2024.11.13-02.08.32:218][932]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.08.32:218][932]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.08.32:218][932]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.08.32:218][932]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.08.32:218][932]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.08.32:218][932]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.08.32:218][932]AssetCheck: /Game/Blueprints/Drone/BP_BotSpawner Validating asset
+[2024.11.13-02.08.34:107][144]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.08.34:114][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.08.34:148][144]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.08.34:299][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.150206s)
+[2024.11.13-02.08.34:299][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.150248s)
+[2024.11.13-02.08.34:315][144]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.11.13-02.08.34:318][144]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.08.34:320][144]LogPlayLevel: PIE: World Init took: (0.001680s)
+[2024.11.13-02.08.34:320][144]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.11.13-02.08.34:320][144]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.08.34:320][144]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.08.34:320][144]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.08.34:320][144]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.08.34:320][144]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.08.34:320][144]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.08.34:320][144]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.08.34:320][144]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.08.34:320][144]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.08.34:320][144]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.08.34:320][144]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.08.34:323][144]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.08.34:333][144]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.08.34:334][144]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.08.34:334][144]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.08.34:334][144]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.08.34:334][144]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.11.13-02.08.34:334][144]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.11.13-02.08.34:335][144]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.11.13-02.08.34:335][144]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.11.13-02.08.34:335][144]LogInit: FAudioDevice initialized with ID 5.
+[2024.11.13-02.08.34:335][144]LogAudio: Display: Audio Device (ID: 5) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.08.34:335][144]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.13-02.08.34:338][144]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.08.34:394][144]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.08.34
+[2024.11.13-02.08.34:395][144]LogWorld: Bringing up level for play took: 0.057231
+[2024.11.13-02.08.34:398][144]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.11.13-02.08.34:402][144]PIE: Server logged in
+[2024.11.13-02.08.34:403][144]PIE: Play in editor total start time 0.29 seconds.
+[2024.11.13-02.08.46:785][523]LogNiagara: Compiling System NiagaraSystem /Game/Assets/FX/NS_EnemyFire_BeamBurst_Small.NS_EnemyFire_BeamBurst_Small took 2.010545 sec (time since issued), 1.953202 sec (combined shader worker time).
+[2024.11.13-02.08.47:004][539]LogNiagara: Compiling System NiagaraSystem /Game/Assets/FX/NS_EnemyFire_BeamBurst_Medium.NS_EnemyFire_BeamBurst_Medium took 2.300613 sec (time since issued), 2.116804 sec (combined shader worker time).
+[2024.11.13-02.08.47:012][539]LogNiagara: Compiling System NiagaraSystem /Game/Assets/FX/NS_EnemyFire_BeamBurst_Large.NS_EnemyFire_BeamBurst_Large took 2.311912 sec (time since issued), 2.079313 sec (combined shader worker time).
+[2024.11.13-02.08.49:723][852]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 90.0
+[2024.11.13-02.08.49:958][879]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 80.0
+[2024.11.13-02.08.50:008][885]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 70.0
+[2024.11.13-02.08.50:025][887]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 60.0
+[2024.11.13-02.08.50:261][914]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 50.0
+[2024.11.13-02.08.50:311][920]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 40.0
+[2024.11.13-02.08.50:328][922]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 30.0
+[2024.11.13-02.08.50:569][950]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 20.0
+[2024.11.13-02.08.50:594][953]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 10.0
+[2024.11.13-02.08.50:628][957]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 0.0
+[2024.11.13-02.08.50:629][957]Cmd: quit
+[2024.11.13-02.08.50:635][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.08.50:636][957]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.08.50:681][957]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.08.50:701][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.08.50:713][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.08.50:717][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.08.50:736][957]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-02.08.50:739][957]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.13-02.08.50:739][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.13-02.08.50:740][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.13-02.08.50:744][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.08.50:781][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.13-02.08.50:848][958]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: ================================================
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Total job queries 12,829, among them cache hits 107 (0.83%), DDC hits 0 (0.00%), Duplicates 2,929 (22.83%)
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Tracking 9,793 distinct input hashes that result in 9,050 distinct outputs (92.41%)
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: RAM used: 6.65 MiB of 3.20 GiB budget. Usage: 0.20%
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Shaders Compiled: 9,799
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Jobs assigned 9,799, completed 9,799 (100%)
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Average time worker was idle: 41.78 s
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 11.27 s
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Job execution time: average 71.37 s, max 165.27 s
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Job life time (pending + execution): average 72.15 s, max 166.45
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Shader code size: average 14.246 KiB, min 1.16 KiB, max 330.049 KiB
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 213.45 s
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Jobs were issued in 1,802 batches (444 local, 1,358 distributed), average 5.44 jobs/batch (1.32 jobs/local batch. 6.78 jobs/distributed batch)
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Average processing rate: 45.91 jobs/sec
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Total thread time: 5,430.195 s
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Total thread preprocess time: 104.834 s
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Percentage time preprocessing: 1.93%
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Effective parallelization: 25.44 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.51 sec, max 15.51 sec, min 15.51 sec)
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.35 sec, max 9.27 sec, min 5.22 sec)
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.95 sec, max 8.34 sec, min 1.24 sec)
+[2024.11.13-02.09.20:272][485]LogShaderCompilers: Display:                         TBasePassCSTLightMapPolicyHQSkylight (compiled    1 times, average 3.23 sec, max 3.23 sec, min 3.23 sec)
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 12.07% of total time (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.90% of total time (compiled  454 times, average 1.42 sec, max 2.09 sec, min 0.91 sec)
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.86% of total time (compiled  260 times, average 2.06 sec, max 4.95 sec, min 0.00 sec)
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.94% of total time (compiled  480 times, average 0.56 sec, max 0.87 sec, min 0.23 sec)
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.57% of total time (compiled   72 times, average 2.70 sec, max 4.05 sec, min 1.84 sec)
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display: === Material stats ===
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display: Materials Translated:    174
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display: Material Translation Only: 0.05 s (44%)
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.11.13-02.09.20:273][485]LogShaderCompilers: Display: ================================================
+[2024.11.13-02.09.30:655][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.11.13-02.09.31:170][669]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Asian_Village/maps/Asian_Village_Demo_Auto1
+[2024.11.13-02.09.31:170][669]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Asian_Village_Demo_Auto1FA7453DD43183874DA8BD7B0AE876E44.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Autosaves/Game/Asian_Village/maps/Asian_Village_Demo_Auto1.umap'
+[2024.11.13-02.09.31:173][669]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Asian_Village/maps/Asian_Village_Demo' took 0.532
+[2024.11.13-02.09.31:173][669]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.532
+[2024.11.13-02.09.33:201][903]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.09.33:208][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.09.33:239][903]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.09.33:389][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149945s)
+[2024.11.13-02.09.33:389][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.149988s)
+[2024.11.13-02.09.33:401][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.11.13-02.09.33:402][903]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.09.33:404][903]LogPlayLevel: PIE: World Init took: (0.001436s)
+[2024.11.13-02.09.33:404][903]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.11.13-02.09.33:404][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.09.33:404][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.09.33:404][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.09.33:404][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.09.33:404][903]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.09.33:404][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.09.33:404][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.09.33:404][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.09.33:404][903]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.09.33:404][903]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.09.33:404][903]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.09.33:406][903]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.09.33:415][903]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.09.33:415][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.09.33:415][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.09.33:415][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.09.33:416][903]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.11.13-02.09.33:416][903]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.11.13-02.09.33:417][903]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.11.13-02.09.33:417][903]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.11.13-02.09.33:417][903]LogInit: FAudioDevice initialized with ID 6.
+[2024.11.13-02.09.33:417][903]LogAudio: Display: Audio Device (ID: 6) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.09.33:417][903]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.13-02.09.33:419][903]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.09.33:474][903]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.09.33
+[2024.11.13-02.09.33:475][903]LogWorld: Bringing up level for play took: 0.055562
+[2024.11.13-02.09.33:476][903]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.11.13-02.09.33:481][903]PIE: Server logged in
+[2024.11.13-02.09.33:482][903]PIE: Play in editor total start time 0.275 seconds.
+[2024.11.13-02.09.46:211][410]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 90.0
+[2024.11.13-02.09.47:866][598]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Explode/sfx_FireBolt_Impact.sfx_FireBolt_Impact' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2024.11.13-02.09.47:925][603]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 80.0
+[2024.11.13-02.09.51:205][848]LogNiagara: Compiling System NiagaraSystem /Game/Assets/FX/Projectiles/FireExplosion/NS_FireExplosion.NS_FireExplosion took 3.403062 sec (time since issued), 3.249966 sec (combined shader worker time).
+[2024.11.13-02.09.52:901][937]LogScript: Warning: Attempted to access BP_EnemyFire_BlasterBeam_Large_C_54 via property K2Node_DynamicCast_AsBPI_Damageable, but BP_EnemyFire_BlasterBeam_Large_C_54 is not valid (pending kill or garbage)
+	BP_PlayerFire_BlasterBeam_Large_C /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.BP_PlayerFire_BlasterBeam_Large_C_215
+	Function /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase.BP_BlasterBeamBase_C:HandleOnHitToDieOrToQuit:0208
+[2024.11.13-02.09.52:901][937]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_EnemyFire_BlasterBeam_Large_C_54 via property K2Node_DynamicCast_AsBPI_Damageable, but BP_EnemyFire_BlasterBeam_Large_C_54 is not valid (pending kill or garbage)". Node:  GetHurt Graph:  HandleOnHitToDieOrToQuit Function:  Handle on Hit to Die or to Quit Blueprint:  BP_BlasterBeamBase
+[2024.11.13-02.09.53:119][948]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 70.0
+[2024.11.13-02.10.01:457][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 60.0
+[2024.11.13-02.10.01:459][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 50.0
+[2024.11.13-02.10.01:566][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 40.0
+[2024.11.13-02.10.01:572][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 30.0
+[2024.11.13-02.10.01:574][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 20.0
+[2024.11.13-02.10.01:639][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 10.0
+[2024.11.13-02.10.01:640][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 0.0
+[2024.11.13-02.10.01:640][119]Cmd: quit
+[2024.11.13-02.10.01:641][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -10.0
+[2024.11.13-02.10.01:641][119]Cmd: quit
+[2024.11.13-02.10.01:642][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -20.0
+[2024.11.13-02.10.01:642][119]Cmd: quit
+[2024.11.13-02.10.01:642][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -30.0
+[2024.11.13-02.10.01:642][119]Cmd: quit
+[2024.11.13-02.10.01:644][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -40.0
+[2024.11.13-02.10.01:644][119]Cmd: quit
+[2024.11.13-02.10.01:645][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -50.0
+[2024.11.13-02.10.01:645][119]Cmd: quit
+[2024.11.13-02.10.01:646][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -60.0
+[2024.11.13-02.10.01:646][119]Cmd: quit
+[2024.11.13-02.10.01:647][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -70.0
+[2024.11.13-02.10.01:647][119]Cmd: quit
+[2024.11.13-02.10.01:647][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -80.0
+[2024.11.13-02.10.01:647][119]Cmd: quit
+[2024.11.13-02.10.01:648][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -90.0
+[2024.11.13-02.10.01:648][119]Cmd: quit
+[2024.11.13-02.10.01:649][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -100.0
+[2024.11.13-02.10.01:649][119]Cmd: quit
+[2024.11.13-02.10.01:649][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -110.0
+[2024.11.13-02.10.01:649][119]Cmd: quit
+[2024.11.13-02.10.01:649][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -120.0
+[2024.11.13-02.10.01:649][119]Cmd: quit
+[2024.11.13-02.10.01:650][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -130.0
+[2024.11.13-02.10.01:650][119]Cmd: quit
+[2024.11.13-02.10.01:650][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -140.0
+[2024.11.13-02.10.01:650][119]Cmd: quit
+[2024.11.13-02.10.01:650][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -150.0
+[2024.11.13-02.10.01:650][119]Cmd: quit
+[2024.11.13-02.10.01:651][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -160.0
+[2024.11.13-02.10.01:651][119]Cmd: quit
+[2024.11.13-02.10.01:651][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -170.0
+[2024.11.13-02.10.01:651][119]Cmd: quit
+[2024.11.13-02.10.01:653][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -180.0
+[2024.11.13-02.10.01:653][119]Cmd: quit
+[2024.11.13-02.10.01:653][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -190.0
+[2024.11.13-02.10.01:653][119]Cmd: quit
+[2024.11.13-02.10.01:653][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -200.0
+[2024.11.13-02.10.01:653][119]Cmd: quit
+[2024.11.13-02.10.01:653][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -210.0
+[2024.11.13-02.10.01:653][119]Cmd: quit
+[2024.11.13-02.10.01:653][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -220.0
+[2024.11.13-02.10.01:653][119]Cmd: quit
+[2024.11.13-02.10.01:653][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -230.0
+[2024.11.13-02.10.01:653][119]Cmd: quit
+[2024.11.13-02.10.01:654][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -240.0
+[2024.11.13-02.10.01:654][119]Cmd: quit
+[2024.11.13-02.10.01:654][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -250.0
+[2024.11.13-02.10.01:654][119]Cmd: quit
+[2024.11.13-02.10.01:655][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -260.0
+[2024.11.13-02.10.01:655][119]Cmd: quit
+[2024.11.13-02.10.01:655][119]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -270.0
+[2024.11.13-02.10.01:655][119]Cmd: quit
+[2024.11.13-02.10.02:276][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.10.02:276][119]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.10.02:290][119]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.10.02:611][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.10.02:622][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.10.02:635][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.10.02:684][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.10.02:691][119]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.13-02.10.02:691][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.13-02.10.02:693][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.13-02.10.02:803][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.13-02.10.02:944][120]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.11.13-02.10.33:222][742]LogSlate: Window 'Message Log' being destroyed
+[2024.11.13-02.10.33:228][742]LogSlate: Window 'Message Log' being destroyed
+[2024.11.13-02.10.51:713][878]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase.BP_BlasterBeamBase
+[2024.11.13-02.10.51:714][878]LogChaosDD: Creating Chaos Debug Draw Scene for world World_7
+[2024.11.13-02.10.56:627][277]LogSlate: Window 'Message Log' being destroyed
+[2024.11.13-02.11.39:492][296]LogChaosDD: Creating Chaos Debug Draw Scene for world World_8
+[2024.11.13-02.11.39:546][298]LogChaosDD: Creating Chaos Debug Draw Scene for world World_9
+[2024.11.13-02.11.40:325][387]LogChaosDD: Creating Chaos Debug Draw Scene for world World_10
+[2024.11.13-02.11.40:340][388]LogChaosDD: Creating Chaos Debug Draw Scene for world World_11
+[2024.11.13-02.11.40:354][389]LogChaosDD: Creating Chaos Debug Draw Scene for world World_12
+[2024.11.13-02.11.40:370][390]LogChaosDD: Creating Chaos Debug Draw Scene for world World_13
+[2024.11.13-02.11.40:380][391]LogChaosDD: Creating Chaos Debug Draw Scene for world World_14
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: ================================================
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Total job queries 12,873, among them cache hits 113 (0.88%), DDC hits 0 (0.00%), Duplicates 2,929 (22.75%)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Tracking 9,831 distinct input hashes that result in 9,080 distinct outputs (92.36%)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: RAM used: 6.65 MiB of 3.20 GiB budget. Usage: 0.20%
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Shaders Compiled: 9,837
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Jobs assigned 9,837, completed 9,837 (100%)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Average time worker was idle: 99.99 s
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 11.27 s
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Job execution time: average 71.09 s, max 165.27 s
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Job life time (pending + execution): average 71.87 s, max 166.45
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Shader code size: average 14.235 KiB, min 1.16 KiB, max 330.049 KiB
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 218.98 s
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.19%
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Jobs were issued in 1,840 batches (482 local, 1,358 distributed), average 5.35 jobs/batch (1.30 jobs/local batch. 6.78 jobs/distributed batch)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Average processing rate: 44.92 jobs/sec
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Total thread time: 5,440.826 s
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Total thread preprocess time: 105.153 s
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Percentage time preprocessing: 1.93%
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Effective parallelization: 24.85 (times faster than compiling all shaders on one thread). Distributed compilation was used.
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 15.51 sec, max 15.51 sec, min 15.51 sec)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.35 sec, max 9.27 sec, min 5.22 sec)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 3.95 sec, max 8.34 sec, min 1.24 sec)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display:                         TBasePassCSTLightMapPolicyHQSkylight (compiled    1 times, average 3.23 sec, max 3.23 sec, min 3.23 sec)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 12.05% of total time (compiled   27 times, average 24.28 sec, max 80.19 sec, min 1.22 sec)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.88% of total time (compiled  454 times, average 1.42 sec, max 2.09 sec, min 0.91 sec)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.84% of total time (compiled  260 times, average 2.06 sec, max 4.95 sec, min 0.00 sec)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 4.93% of total time (compiled  480 times, average 0.56 sec, max 0.87 sec, min 0.23 sec)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.57% of total time (compiled   72 times, average 2.70 sec, max 4.05 sec, min 1.84 sec)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: === Material stats ===
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Materials Translated:    174
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Material Translation Only: 0.05 s (44%)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.11.13-02.12.20:280][994]LogShaderCompilers: Display: ================================================
+[2024.11.13-02.12.31:700][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.13-02.12.32:770][439]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.12.32:830][439]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BlasterBeam/BP_BlasterBeamBase] ([2] browsable assets)...
+[2024.11.13-02.12.32:830][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BlasterBeam/BP_BlasterBeamBase]
+[2024.11.13-02.12.32:837][439]LogSavePackage: Moving output files for package: /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase
+[2024.11.13-02.12.32:837][439]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_BlasterBeamBase9DD76D1E4977331AE3250F8503220D48.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/BlasterBeam/BP_BlasterBeamBase.uasset'
+[2024.11.13-02.12.32:843][439]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.274 ms (total: 3.45 sec)
+[2024.11.13-02.12.32:873][439]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.12.32:873][439]LogContentValidation: Enabled validators:
+[2024.11.13-02.12.32:873][439]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.12.32:873][439]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.12.32:873][439]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.12.32:873][439]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.12.32:873][439]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.12.32:873][439]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.12.32:873][439]AssetCheck: /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase Validating asset
+[2024.11.13-02.12.35:005][681]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.12.35:012][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.12.35:039][681]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.12.35:182][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.142473s)
+[2024.11.13-02.12.35:182][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.142514s)
+[2024.11.13-02.12.35:205][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.11.13-02.12.35:207][681]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.12.35:208][681]LogPlayLevel: PIE: World Init took: (0.001549s)
+[2024.11.13-02.12.35:208][681]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.11.13-02.12.35:208][681]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.12.35:208][681]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.12.35:208][681]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.12.35:208][681]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.12.35:208][681]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.12.35:208][681]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.12.35:208][681]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.12.35:208][681]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.12.35:208][681]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.12.35:210][681]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.12.35:210][681]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.12.35:211][681]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.12.35:220][681]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.12.35:220][681]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.12.35:220][681]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.12.35:220][681]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.12.35:221][681]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.11.13-02.12.35:221][681]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.11.13-02.12.35:222][681]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.11.13-02.12.35:222][681]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.11.13-02.12.35:222][681]LogInit: FAudioDevice initialized with ID 7.
+[2024.11.13-02.12.35:222][681]LogAudio: Display: Audio Device (ID: 7) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.12.35:222][681]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.13-02.12.35:224][681]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.12.35:283][681]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.12.35
+[2024.11.13-02.12.35:284][681]LogWorld: Bringing up level for play took: 0.058023
+[2024.11.13-02.12.35:286][681]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.11.13-02.12.35:289][681]PIE: Server logged in
+[2024.11.13-02.12.35:290][681]PIE: Play in editor total start time 0.279 seconds.
+[2024.11.13-02.12.51:283][505]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 90.0
+[2024.11.13-02.12.53:417][702]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 80.0
+[2024.11.13-02.12.55:885][883]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 70.0
+[2024.11.13-02.12.55:997][889]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 60.0
+[2024.11.13-02.12.56:120][895]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 50.0
+[2024.11.13-02.12.56:169][897]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 40.0
+[2024.11.13-02.12.56:215][899]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 30.0
+[2024.11.13-02.13.12:826][972]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 20.0
+[2024.11.13-02.13.12:827][972]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 10.0
+[2024.11.13-02.13.12:829][972]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 0.0
+[2024.11.13-02.13.12:829][972]Cmd: quit
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33557112 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33563112 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33563352 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33569352 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33569592 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33581592 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33581832 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33594072 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33582072 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33606072 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33618072 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33624072 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33630072 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33636072 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33642072 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33642312 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33642552 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33642792 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33654792 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33655032 total this frame
+[2024.11.13-02.13.12:854][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33667032 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33679032 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33691032 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33697032 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33703032 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33709032 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33715032 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33715272 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33715512 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33715752 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33727752 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33727992 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33739992 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33751992 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33763992 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33769992 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33775992 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33781992 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33782232 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33788232 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33788472 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33788712 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33800712 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33812712 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33824712 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33824952 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33836952 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33842952 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33848952 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33854952 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33855192 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33861192 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33861432 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33873672 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33873432 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33885672 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33885912 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33897912 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33909912 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33915912 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33921912 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33927912 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33928152 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33928392 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33928632 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33934632 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33946632 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33958632 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33970632 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 33970872 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 33982872 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33988872 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 33994872 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34000872 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34001112 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34001352 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34007352 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34007592 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34019592 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34031592 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34043592 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34043832 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34049832 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34061832 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34067832 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34073832 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34074072 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34074312 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34086312 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34086552 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34092552 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34104552 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34116552 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34116792 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34122792 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34134792 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34140792 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34146792 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34147032 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34147272 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34153272 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34165512 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34153512 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34177512 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34177752 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34189752 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34195752 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34213752 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34201752 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34213992 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34219992 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34220232 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34232232 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34244232 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34244472 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34256472 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34262472 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34268472 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34274472 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34274712 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34274952 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34286952 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34287192 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34299192 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34311192 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(6000), will have allocated 34317192 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(240), will have allocated 34317432 total this frame
+[2024.11.13-02.13.12:855][972]LogRendererCore: Warning: FGlobalReadBuffer::AllocateInternal(12000), will have allocated 34329432 total this frame
+[2024.11.13-02.13.12:948][972]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -10.0
+[2024.11.13-02.13.12:948][972]Cmd: quit
+[2024.11.13-02.13.12:948][972]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'quit'. 
+[2024.11.13-02.13.12:949][972]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -20.0
+[2024.11.13-02.13.12:949][972]Cmd: quit
+[2024.11.13-02.13.12:982][972]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -30.0
+[2024.11.13-02.13.12:982][972]Cmd: quit
+[2024.11.13-02.13.12:982][972]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -40.0
+[2024.11.13-02.13.12:982][972]Cmd: quit
+[2024.11.13-02.13.12:983][972]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = -50.0
+[2024.11.13-02.13.12:983][972]Cmd: quit
+[2024.11.13-02.13.13:792][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.13.13:792][972]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.13.13:811][972]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.13.14:763][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.13.14:784][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.13.14:808][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.13.14:914][972]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-02.13.14:914][972]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.13-02.13.14:914][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.13-02.13.14:916][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.13-02.13.14:920][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.13.15:112][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.11.13-02.13.15:184][973]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.11.13-02.13.39:513][851]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Drone/BP_Bot.BP_Bot
+[2024.11.13-02.13.39:519][851]LogChaosDD: Creating Chaos Debug Draw Scene for world World_15
+[2024.11.13-02.14.20:070][275]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.13-02.16.39:648][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.11.13-02.16.40:540][437]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.16.40:581][437]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Drone/BP_Bot] ([2] browsable assets)...
+[2024.11.13-02.16.40:617][437]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Drone/BP_Bot.BP_Bot]
+[2024.11.13-02.16.40:617][437]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_Bot]
+[2024.11.13-02.16.40:617][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Drone/BP_Bot" FILE="../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset" SILENT=true
+[2024.11.13-02.16.40:641][437]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_Bot
+[2024.11.13-02.16.40:641][437]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_Bot5FCEB4AB46A428E497C549BA409AB8EB.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_Bot.uasset'
+[2024.11.13-02.16.40:646][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.380 ms (total: 3.56 sec)
+[2024.11.13-02.16.40:677][437]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.16.40:677][437]LogContentValidation: Enabled validators:
+[2024.11.13-02.16.40:677][437]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.16.40:677][437]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.16.40:677][437]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.16.40:677][437]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.16.40:677][437]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.16.40:677][437]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.16.40:677][437]AssetCheck: /Game/Blueprints/Drone/BP_Bot Validating asset
+[2024.11.13-02.16.43:973][821]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.16.43:980][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.16.43:980][821]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.16.44:121][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140391s)
+[2024.11.13-02.16.44:121][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.140426s)
+[2024.11.13-02.16.44:135][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.11.13-02.16.44:137][821]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.16.44:138][821]LogPlayLevel: PIE: World Init took: (0.001581s)
+[2024.11.13-02.16.44:139][821]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.11.13-02.16.44:139][821]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.16.44:139][821]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.16.44:139][821]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.16.44:139][821]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.16.44:139][821]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.16.44:139][821]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.16.44:139][821]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.16.44:139][821]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.16.44:139][821]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.16.44:139][821]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.16.44:139][821]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.16.44:141][821]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.16.44:151][821]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.16.44:151][821]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.16.44:151][821]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.16.44:151][821]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.16.44:151][821]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.11.13-02.16.44:151][821]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.11.13-02.16.44:153][821]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.11.13-02.16.44:153][821]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.11.13-02.16.44:153][821]LogInit: FAudioDevice initialized with ID 8.
+[2024.11.13-02.16.44:153][821]LogAudio: Display: Audio Device (ID: 8) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.16.44:153][821]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.13-02.16.44:155][821]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.16.44:210][821]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.16.44
+[2024.11.13-02.16.44:210][821]LogWorld: Bringing up level for play took: 0.055017
+[2024.11.13-02.16.44:212][821]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.11.13-02.16.44:216][821]PIE: Server logged in
+[2024.11.13-02.16.44:217][821]PIE: Play in editor total start time 0.238 seconds.
+[2024.11.13-02.16.58:002][450]LogBlueprintUserMessages: [BP_Bot_C_0] JUST KILLED: BP_Bot0
+[2024.11.13-02.16.58:843][549]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 90.0
+[2024.11.13-02.16.59:066][574]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 80.0
+[2024.11.13-02.16.59:094][577]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 70.0
+[2024.11.13-02.16.59:245][594]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 60.0
+[2024.11.13-02.17.07:788][315]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 50.0
+[2024.11.13-02.17.07:829][317]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 40.0
+[2024.11.13-02.17.11:005][467]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 30.0
+[2024.11.13-02.17.16:268][650]LogBlueprintUserMessages: [BP_Bot_C_23] JUST KILLED: BP_Bot23
+[2024.11.13-02.17.17:028][673]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 20.0
+[2024.11.13-02.17.17:029][673]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 10.0
+[2024.11.13-02.17.17:030][673]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 0.0
+[2024.11.13-02.17.17:030][673]Cmd: quit
+[2024.11.13-02.17.17:044][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.17.17:044][673]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.17.17:072][673]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.17.17:102][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.17.17:109][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.17.17:119][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.17.17:153][673]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-02.17.17:153][673]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.13-02.17.17:153][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.13-02.17.17:154][673]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.13-02.17.17:158][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.17.17:191][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.11.13-02.17.17:273][674]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.11.13-02.18.10:907][999]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.18.10:914][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.18.10:942][999]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.18.11:090][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.147732s)
+[2024.11.13-02.18.11:090][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.147779s)
+[2024.11.13-02.18.11:108][999]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2024.11.13-02.18.11:112][999]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.18.11:114][999]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2024.11.13-02.18.11:114][999]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.11.13-02.18.11:114][999]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.18.11:114][999]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.18.11:114][999]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.18.11:114][999]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.18.11:114][999]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.18.11:114][999]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.18.11:114][999]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.18.11:114][999]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.18.11:114][999]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.18.11:114][999]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.18.11:114][999]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.18.11:116][999]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.18.11:125][999]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.18.11:125][999]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.18.11:125][999]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.18.11:125][999]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.18.11:126][999]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.11.13-02.18.11:126][999]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.11.13-02.18.11:127][999]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.11.13-02.18.11:127][999]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.11.13-02.18.11:127][999]LogInit: FAudioDevice initialized with ID 9.
+[2024.11.13-02.18.11:127][999]LogAudio: Display: Audio Device (ID: 9) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.18.11:127][999]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.13-02.18.11:129][999]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.18.11:186][999]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.18.11
+[2024.11.13-02.18.11:187][999]LogWorld: Bringing up level for play took: 0.057676
+[2024.11.13-02.18.11:189][999]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.11.13-02.18.11:193][999]PIE: Server logged in
+[2024.11.13-02.18.11:193][999]PIE: Play in editor total start time 0.281 seconds.
+[2024.11.13-02.18.21:082][168]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 90.0
+[2024.11.13-02.18.24:759][588]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 80.0
+[2024.11.13-02.18.25:331][644]LogBlueprintUserMessages: [BP_Bot_C_0] JUST KILLED: BP_Bot0
+[2024.11.13-02.18.26:455][741]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 70.0
+[2024.11.13-02.18.26:467][742]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 60.0
+[2024.11.13-02.18.26:517][746]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 50.0
+[2024.11.13-02.18.28:687][921]LogScript: Warning: Attempted to access BP_EnemyFire_BlasterBeam_Large_C_87 via property K2Node_DynamicCast_AsBPI_Damageable, but BP_EnemyFire_BlasterBeam_Large_C_87 is not valid (pending kill or garbage)
+	BP_PlayerFire_BlasterBeam_Large_C /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.BP_PlayerFire_BlasterBeam_Large_C_100
+	Function /Game/Blueprints/BlasterBeam/BP_BlasterBeamBase.BP_BlasterBeamBase_C:HandleOnHitToDieOrToQuit:0208
+[2024.11.13-02.18.28:687][921]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_EnemyFire_BlasterBeam_Large_C_87 via property K2Node_DynamicCast_AsBPI_Damageable, but BP_EnemyFire_BlasterBeam_Large_C_87 is not valid (pending kill or garbage)". Node:  GetHurt Graph:  HandleOnHitToDieOrToQuit Function:  Handle on Hit to Die or to Quit Blueprint:  BP_BlasterBeamBase
+[2024.11.13-02.18.29:097][953]LogBlueprintUserMessages: [BP_Bot_C_30] JUST KILLED: BP_Bot30
+[2024.11.13-02.18.29:203][961]LogBlueprintUserMessages: [BP_Bot_C_38] JUST KILLED: BP_Bot38
+[2024.11.13-02.18.29:280][967]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 40.0
+[2024.11.13-02.18.30:289][ 44]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 30.0
+[2024.11.13-02.18.30:400][ 52]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 20.0
+[2024.11.13-02.18.30:452][ 56]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 10.0
+[2024.11.13-02.18.31:016][ 96]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 0.0
+[2024.11.13-02.18.31:016][ 96]Cmd: quit
+[2024.11.13-02.18.31:021][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.18.31:021][ 96]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.18.31:056][ 96]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.18.31:076][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.18.31:082][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.18.31:086][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.18.31:107][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.18.31:112][ 96]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.13-02.18.31:112][ 96]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.13-02.18.31:114][ 96]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.13-02.18.31:136][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.13-02.18.31:301][ 97]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.11.13-02.18.52:290][577]LogSlate: Window 'Message Log' being destroyed
+[2024.11.13-02.21.34:076][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.13-02.22.01:744][519]LogSlate: Window 'Delete Variable' being destroyed
+[2024.11.13-02.23.07:294][110]LogDerivedDataCache: C:/Users/tom/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.11.13-02.23.08:572][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.11.13-02.23.19:121][456]Cmd: DELETE
+[2024.11.13-02.23.19:121][456]Cmd: ACTOR DELETE
+[2024.11.13-02.23.19:147][456]LogEditorActor: Actor TargetPoint2 is referenced by BP_BotSpawner.
+[2024.11.13-02.23.23:518][456]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2024.11.13-02.23.23:540][456]LogEditorActor: Deleted Actor: TargetPoint
+[2024.11.13-02.23.23:541][456]LogEditorActor: Deleted Actor: TargetPoint
+[2024.11.13-02.23.23:541][456]LogEditorActor: Deleted Actor: TargetPoint
+[2024.11.13-02.23.23:542][456]LogEditorActor: Deleted Actor: TargetPoint
+[2024.11.13-02.23.23:543][456]LogEditorActor: Deleted Actor: TargetPoint
+[2024.11.13-02.23.23:558][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.11.13-02.23.23:562][456]LogEditorActor: Deleted 5 Actors (0.051 secs)
+[2024.11.13-02.23.37:320][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.23.37:413][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.11.13-02.23.37:923][ 61]LogSavePackage: Moving output files for package: /Game/Asian_Village/maps/Asian_Village_Demo
+[2024.11.13-02.23.37:923][ 61]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Asian_Village_Demo72CABF1E4B8AB047FD6BAFBFE4B388CB.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Asian_Village/maps/Asian_Village_Demo.umap'
+[2024.11.13-02.23.37:940][ 61]LogFileHelpers: All files are already saved.
+[2024.11.13-02.23.37:940][ 61]LogFileHelpers: Saving map 'Asian_Village_Demo' took 0.559
+[2024.11.13-02.23.37:944][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 624.100 ms (total: 4.18 sec)
+[2024.11.13-02.23.38:013][ 61]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.23.38:013][ 61]LogContentValidation: Enabled validators:
+[2024.11.13-02.23.38:013][ 61]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.23.38:013][ 61]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.23.38:013][ 61]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.23.38:013][ 61]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.23.38:013][ 61]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.23.38:013][ 61]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.23.38:014][ 61]AssetCheck: /Game/Asian_Village/maps/Asian_Village_Demo Validating asset
+[2024.11.13-02.23.39:185][196]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.23.39:192][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.23.39:218][196]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.23.39:358][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.140448s)
+[2024.11.13-02.23.39:358][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.140486s)
+[2024.11.13-02.23.39:370][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.11.13-02.23.39:372][196]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.23.39:373][196]LogPlayLevel: PIE: World Init took: (0.001624s)
+[2024.11.13-02.23.39:374][196]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.11.13-02.23.39:374][196]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.23.39:374][196]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.23.39:374][196]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.23.39:374][196]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.23.39:374][196]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.23.39:374][196]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.23.39:374][196]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.23.39:374][196]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.23.39:374][196]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.23.39:374][196]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.23.39:374][196]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.23.39:376][196]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.23.39:385][196]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.23.39:385][196]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.23.39:385][196]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.23.39:385][196]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.23.39:386][196]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.11.13-02.23.39:386][196]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.11.13-02.23.39:387][196]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.11.13-02.23.39:387][196]LogInit: FAudioDevice initialized with ID 10.
+[2024.11.13-02.23.39:387][196]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.11.13-02.23.39:387][196]LogAudio: Display: Audio Device (ID: 10) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.23.39:387][196]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.13-02.23.39:389][196]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.23.39:446][196]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.23.39
+[2024.11.13-02.23.39:447][196]LogWorld: Bringing up level for play took: 0.057392
+[2024.11.13-02.23.39:449][196]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.11.13-02.23.39:453][196]PIE: Server logged in
+[2024.11.13-02.23.39:454][196]PIE: Play in editor total start time 0.263 seconds.
+[2024.11.13-02.23.55:729][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.23.55:729][128]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.23.55:730][128]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.23.55:747][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.23.55:758][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.23.55:762][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.23.55:779][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.23.55:784][128]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.13-02.23.55:784][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.13-02.23.55:785][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.13-02.23.55:803][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.11.13-02.23.55:851][129]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.11.13-02.23.58:747][467]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.23.58:754][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.23.58:788][467]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.23.58:934][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.145176s)
+[2024.11.13-02.23.58:934][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.145218s)
+[2024.11.13-02.23.58:949][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.11.13-02.23.58:952][467]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.23.58:954][467]LogPlayLevel: PIE: World Init took: (0.001639s)
+[2024.11.13-02.23.58:955][467]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.11.13-02.23.58:955][467]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.23.58:955][467]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.23.58:955][467]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.23.58:955][467]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.23.58:955][467]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.23.58:955][467]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.23.58:955][467]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.23.58:955][467]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.23.58:955][467]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.23.58:955][467]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.23.58:955][467]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.23.58:956][467]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.23.58:965][467]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.23.58:965][467]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.23.58:965][467]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.23.58:965][467]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.23.58:966][467]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.11.13-02.23.58:966][467]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.11.13-02.23.58:967][467]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.11.13-02.23.58:967][467]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.11.13-02.23.58:967][467]LogInit: FAudioDevice initialized with ID 11.
+[2024.11.13-02.23.58:967][467]LogAudio: Display: Audio Device (ID: 11) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.23.58:967][467]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.11.13-02.23.58:970][467]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.23.59:025][467]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.23.59
+[2024.11.13-02.23.59:026][467]LogWorld: Bringing up level for play took: 0.056446
+[2024.11.13-02.23.59:028][467]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.11.13-02.23.59:032][467]PIE: Server logged in
+[2024.11.13-02.23.59:033][467]PIE: Play in editor total start time 0.28 seconds.
+[2024.11.13-02.24.10:187][785]LogBlueprintUserMessages: [BP_Bot_C_0] JUST KILLED: BP_Bot0
+[2024.11.13-02.24.57:871][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.24.57:871][486]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.24.57:873][486]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.24.57:890][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.24.57:896][486]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.24.57:899][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.24.57:918][486]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.24.57:924][486]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.11.13-02.24.57:924][486]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.11.13-02.24.57:926][486]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.11.13-02.24.57:944][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.13-02.24.57:996][487]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.11.13-02.25.21:579][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.11.13-02.25.22:504][295]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.25.22:550][295]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Drone/BP_BotSpawner] ([2] browsable assets)...
+[2024.11.13-02.25.22:550][295]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Drone/BP_BotSpawner]
+[2024.11.13-02.25.22:553][295]LogSavePackage: Moving output files for package: /Game/Blueprints/Drone/BP_BotSpawner
+[2024.11.13-02.25.22:554][295]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/BP_BotSpawner9ED3659646682740120EB485D96CC796.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Blueprints/Drone/BP_BotSpawner.uasset'
+[2024.11.13-02.25.22:558][295]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.173 ms (total: 4.24 sec)
+[2024.11.13-02.25.22:600][295]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.25.22:600][295]LogContentValidation: Enabled validators:
+[2024.11.13-02.25.22:600][295]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.25.22:600][295]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.25.22:600][295]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.25.22:600][295]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.25.22:600][295]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.25.22:600][295]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.25.22:600][295]AssetCheck: /Game/Blueprints/Drone/BP_BotSpawner Validating asset
+[2024.11.13-02.25.26:750][685]LogSlate: External Image Picker: DecompressImage failed
+[2024.11.13-02.26.02:765][927]LogSlate: Window 'Edit Profile' being destroyed
+[2024.11.13-02.26.06:369][348]LogSlate: Window 'Project Settings' being destroyed
+[2024.11.13-02.29.13:693][773]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TargetPoint
+[2024.11.13-02.29.13:693][773]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TargetPoint
+[2024.11.13-02.29.13:696][773]LogActorFactory: Actor Factory spawned Class /Script/Engine.TargetPoint as actor: TargetPoint /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.TargetPoint_7
+[2024.11.13-02.29.13:697][773]LogActorFactory: Actor Factory spawned Class /Script/Engine.TargetPoint as actor: TargetPoint /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.TargetPoint_7
+[2024.11.13-02.29.34:115][181]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.11.13-02.29.34:115][181]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.11.13-02.29.47:795][762]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TargetPoint
+[2024.11.13-02.29.47:795][762]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TargetPoint
+[2024.11.13-02.29.47:799][762]LogActorFactory: Actor Factory spawned Class /Script/Engine.TargetPoint as actor: TargetPoint /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.TargetPoint_8
+[2024.11.13-02.29.47:800][762]LogActorFactory: Actor Factory spawned Class /Script/Engine.TargetPoint as actor: TargetPoint /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo:PersistentLevel.TargetPoint_8
+[2024.11.13-02.29.59:619][144]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.11.13-02.29.59:619][144]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.11.13-02.30.02:275][443]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.11.13-02.30.02:275][443]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.11.13-02.30.11:527][535]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.30.11:535][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.30.11:570][535]LogPlayLevel: Creating play world package: /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.30.11:738][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.168005s)
+[2024.11.13-02.30.11:738][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Asian_Village/maps/Asian_Village_Demo.Asian_Village_Demo to /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo (0.168057s)
+[2024.11.13-02.30.11:763][535]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.13-02.30.11:767][535]LogChaosDD: Creating Chaos Debug Draw Scene for world Asian_Village_Demo
+[2024.11.13-02.30.11:769][535]LogPlayLevel: PIE: World Init took: (0.001990s)
+[2024.11.13-02.30.11:769][535]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.11.13-02.30.11:769][535]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.30.11:769][535]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.30.11:769][535]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.30.11:769][535]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.30.11:769][535]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.30.11:769][535]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.30.11:769][535]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.30.11:769][535]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.30.11:769][535]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.30.11:769][535]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.30.11:769][535]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.30.11:772][535]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.30.11:782][535]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.11.13-02.30.11:783][535]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.30.11:783][535]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.30.11:783][535]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.30.11:786][535]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.11.13-02.30.11:786][535]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.11.13-02.30.11:787][535]LogInit: FAudioDevice initialized with ID 12.
+[2024.11.13-02.30.11:787][535]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.11.13-02.30.11:787][535]LogAudio: Display: Audio Device (ID: 12) registered with world 'Asian_Village_Demo'.
+[2024.11.13-02.30.11:787][535]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.11.13-02.30.11:787][535]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.13-02.30.11:790][535]LogLoad: Game class is 'BP_BadBotGameMode_C'
+[2024.11.13-02.30.11:851][535]LogWorld: Bringing World /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo.Asian_Village_Demo up for play (max tick rate 0) at 2024.11.12-18.30.11
+[2024.11.13-02.30.11:852][535]LogWorld: Bringing up level for play took: 0.061771
+[2024.11.13-02.30.11:854][535]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.11.13-02.30.11:858][535]PIE: Server logged in
+[2024.11.13-02.30.11:858][535]PIE: Play in editor total start time 0.326 seconds.
+[2024.11.13-02.30.25:374][134]LogBlueprintUserMessages: [BP_Bot_C_0] JUST KILLED: BP_Bot0
+[2024.11.13-02.30.25:701][173]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 90.0
+[2024.11.13-02.30.25:750][179]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 80.0
+[2024.11.13-02.30.41:937][111]LogBlueprintUserMessages: [BP_BotPawn_C_0] Took Damage, New Health = 70.0
+[2024.11.13-02.30.45:145][488]LogBlueprintUserMessages: [BP_Bot_C_2] JUST KILLED: BP_Bot2
+[2024.11.13-02.30.55:363][661]LogBlueprintUserMessages: [BP_Bot_C_1] JUST KILLED: BP_Bot1
+[2024.11.13-02.31.13:761][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.31.13:761][829]LogWorld: BeginTearingDown for /Game/Asian_Village/maps/UEDPIE_0_Asian_Village_Demo
+[2024.11.13-02.31.13:762][829]LogWorld: UWorld::CleanupWorld for Asian_Village_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.31.13:779][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.31.13:794][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.31.13:798][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.31.13:822][829]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-02.31.13:824][829]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.13-02.31.13:824][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.13-02.31.13:826][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.13-02.31.13:829][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.31.13:847][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.13-02.31.13:903][830]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.11.13-02.31.31:981][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.11.13-02.31.32:988][ 33]LogSlate: Window 'Save Content' being destroyed
+[2024.11.13-02.31.33:011][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.31.33:100][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.11.13-02.31.33:609][ 33]LogSavePackage: Moving output files for package: /Game/Asian_Village/maps/Asian_Village_Demo
+[2024.11.13-02.31.33:609][ 33]LogSavePackage: Moving '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Saved/Asian_Village_Demo8C172B034C926971833E39A6248788E6.tmp' to '../../../../../../Users/tom/Documents/Unreal Projects/Blueprints/Blueprints_BadBot/Content/Asian_Village/maps/Asian_Village_Demo.umap'
+[2024.11.13-02.31.33:627][ 33]LogFileHelpers: All files are already saved.
+[2024.11.13-02.31.33:627][ 33]LogFileHelpers: Saving map 'Asian_Village_Demo' took 0.560
+[2024.11.13-02.31.33:632][ 33]LogFileHelpers: InternalPromptForCheckoutAndSave took 621.505 ms (total: 4.86 sec)
+[2024.11.13-02.31.33:680][ 33]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.13-02.31.33:680][ 33]LogContentValidation: Enabled validators:
+[2024.11.13-02.31.33:680][ 33]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.11.13-02.31.33:680][ 33]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.13-02.31.33:680][ 33]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.13-02.31.33:680][ 33]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.11.13-02.31.33:680][ 33]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.13-02.31.33:680][ 33]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.11.13-02.31.33:681][ 33]AssetCheck: /Game/Asian_Village/maps/Asian_Village_Demo Validating asset
